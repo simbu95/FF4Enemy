@@ -1,5 +1,6 @@
 {
-  "1": {
+  "Data":[
+  {
     "Name": "Imp     ",
     "Boss": "false",
     "Level": "3",
@@ -22,7 +23,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "2": {
+  {
     "Name": "Basilisk",
     "Boss": "false",
     "Level": "5",
@@ -44,7 +45,7 @@
       "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Petrify "
     }
   },
-  "3": {
+  {
     "Name": "Eagle   ",
     "Boss": "false",
     "Level": "5",
@@ -66,7 +67,7 @@
       "Condition 2": " If no condition,Fight"
     }
   },
-  "4": {
+  {
     "Name": "FloatEye",
     "Boss": "false",
     "Level": "4",
@@ -88,7 +89,7 @@
       "Condition 2": " If no condition,Fight"
     }
   },
-  "5": {
+  {
     "Name": "Larva   ",
     "Boss": "false",
     "Level": "5",
@@ -114,7 +115,7 @@
       "Condition 1": " If a character uses magic,Cast Psych on single"
     }
   },
-  "6": {
+  {
     "Name": "Cave Bat",
     "Boss": "false",
     "Level": "20",
@@ -136,7 +137,7 @@
       "Condition 2": " If no condition,Use Vampire "
     }
   },
-  "7": {
+  {
     "Name": "Treant  ",
     "Boss": "false",
     "Level": "19",
@@ -161,7 +162,7 @@
       "Condition 1": " If a character uses Fight and only monster left,Cast Stop  on single"
     }
   },
-  "8": {
+  {
     "Name": "SwordRat",
     "Boss": "false",
     "Level": "4",
@@ -186,7 +187,7 @@
       "Condition 1": " If a character uses Fight,Use Needle  "
     }
   },
-  "9": {
+  {
     "Name": "TinyMage",
     "Boss": "false",
     "Level": "6",
@@ -212,7 +213,7 @@
       "Condition 2": " If a character uses Fight,Cast Hold  on single"
     }
   },
-  "10": {
+   {
     "Name": "Sand Man",
     "Boss": "false",
     "Level": "5",
@@ -235,7 +236,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "11": {
+   {
     "Name": "SandMoth",
     "Boss": "false",
     "Level": "5",
@@ -258,7 +259,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "12": {
+   {
     "Name": "Sandpede",
     "Boss": "false",
     "Level": "6",
@@ -281,7 +282,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "13": {
+   {
     "Name": "SandWorm",
     "Boss": "false",
     "Level": "6",
@@ -304,7 +305,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "14": {
+   {
     "Name": "CaveToad",
     "Boss": "false",
     "Level": "6",
@@ -327,7 +328,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "15": {
+   {
     "Name": "EvilShel",
     "Boss": "false",
     "Level": "6",
@@ -350,7 +351,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "16": {
+   {
     "Name": "Zombie  ",
     "Boss": "false",
     "Level": "6",
@@ -373,7 +374,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "17": {
+   {
     "Name": "Pike    ",
     "Boss": "false",
     "Level": "7",
@@ -396,7 +397,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "18": {
+   {
     "Name": "TrapRose",
     "Boss": "false",
     "Level": "23",
@@ -419,7 +420,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "19": {
+   {
     "Name": "Mad Toad",
     "Boss": "false",
     "Level": "7",
@@ -445,7 +446,7 @@
       "Condition 1": " If takes damage,Cast Toad  on single"
     }
   },
-  "20": {
+   {
     "Name": "Jelly   ",
     "Boss": "false",
     "Level": "7",
@@ -468,7 +469,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "21": {
+   {
     "Name": "Cream   ",
     "Boss": "false",
     "Level": "8",
@@ -491,7 +492,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "22": {
+   {
     "Name": "WaterHag",
     "Boss": "false",
     "Level": "8",
@@ -514,7 +515,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "23": {
+   {
     "Name": "Weeper  ",
     "Boss": "false",
     "Level": "9",
@@ -537,7 +538,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "24": {
+   {
     "Name": "RocLarva",
     "Boss": "false",
     "Level": "36",
@@ -564,7 +565,7 @@
       "Condition 2": " If a character uses Fight,Cast Slow  on single"
     }
   },
-  "25": {
+   {
     "Name": "Dark Imp",
     "Boss": "false",
     "Level": "16",
@@ -587,7 +588,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "26": {
+   {
     "Name": "BlackLiz",
     "Boss": "false",
     "Level": "25",
@@ -614,7 +615,7 @@
       "Condition 2": " If a character uses Fight,Use Petrify "
     }
   },
-  "27": {
+   {
     "Name": "Turtle  ",
     "Boss": "false",
     "Level": "12",
@@ -637,7 +638,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "28": {
+   {
     "Name": "Imp Cap.",
     "Boss": "false",
     "Level": "9",
@@ -660,7 +661,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "29": {
+   {
     "Name": "Slime   ",
     "Boss": "false",
     "Level": "21",
@@ -683,7 +684,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "30": {
+   {
     "Name": "Soldier ",
     "Boss": "false",
     "Level": "9",
@@ -709,7 +710,7 @@
       "Condition 1": " If unit 26 uses magic,Fight"
     }
   },
-  "31": {
+   {
     "Name": "Officer ",
     "Boss": "false",
     "Level": "11",
@@ -731,7 +732,7 @@
       "Condition 2": " If no condition,Target all other monsters,Use Dummy   ,Next action, show message 83"
     }
   },
-  "32": {
+   {
     "Name": "Needler ",
     "Boss": "false",
     "Level": "14",
@@ -757,7 +758,7 @@
       "Condition 1": " If a character uses Fight,Use Needle  "
     }
   },
-  "33": {
+   {
     "Name": "Tricker ",
     "Boss": "false",
     "Level": "97",
@@ -782,7 +783,7 @@
       "Condition 1": " If a character uses Bolt magic,Show message 176,Show message 179,Target self,Cast Fast  on single,Set condition flag to 2"
     }
   },
-  "34": {
+   {
     "Name": "Cannibal",
     "Boss": "false",
     "Level": "19",
@@ -805,7 +806,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "35": {
+   {
     "Name": "Spirit  ",
     "Boss": "false",
     "Level": "10",
@@ -828,7 +829,7 @@
       "Condition 3": " If no condition,Cast Fire1 on single,Wait,Fight"
     }
   },
-  "36": {
+   {
     "Name": "Skelton ",
     "Boss": "false",
     "Level": "10",
@@ -850,7 +851,7 @@
       "Condition 2": " If no condition,Fight"
     }
   },
-  "37": {
+   {
     "Name": "Cocktric",
     "Boss": "false",
     "Level": "11",
@@ -873,7 +874,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "38": {
+   {
     "Name": "Gargoyle",
     "Boss": "false",
     "Level": "12",
@@ -895,7 +896,7 @@
       "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Cast Weak  on single"
     }
   },
-  "39": {
+   {
     "Name": "Roc Baby",
     "Boss": "false",
     "Level": "23",
@@ -920,7 +921,7 @@
       "Condition 1": " If a character uses magic,Use Beak    "
     }
   },
-  "40": {
+   {
     "Name": "Hooligan",
     "Boss": "false",
     "Level": "48",
@@ -943,7 +944,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "41": {
+   {
     "Name": "Raven   ",
     "Boss": "false",
     "Level": "15",
@@ -965,7 +966,7 @@
       "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
     }
   },
-  "42": {
+   {
     "Name": "WaterBug",
     "Boss": "false",
     "Level": "8",
@@ -990,7 +991,7 @@
       "Condition 1": " If a character uses magic,Use Remedy  "
     }
   },
-  "43": {
+   {
     "Name": "Aligator",
     "Boss": "false",
     "Level": "8",
@@ -1012,7 +1013,7 @@
       "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
     }
   },
-  "44": {
+   {
     "Name": "Piranha ",
     "Boss": "false",
     "Level": "16",
@@ -1035,7 +1036,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "45": {
+   {
     "Name": "Fighter ",
     "Boss": "false",
     "Level": "12",
@@ -1061,7 +1062,7 @@
       "Condition 1": " If unit 26 uses magic,Fight"
     }
   },
-  "46": {
+   {
     "Name": "General ",
     "Boss": "false",
     "Level": "15",
@@ -1083,7 +1084,7 @@
       "Condition 2": " If no condition,Target all other monsters,Use Dummy   ,Next action, show message 82"
     }
   },
-  "47": {
+   {
     "Name": "Soul    ",
     "Boss": "false",
     "Level": "16",
@@ -1106,7 +1107,7 @@
       "Condition 3": " If no condition,Cast Fire1 on single,Wait,Fight"
     }
   },
-  "48": {
+   {
     "Name": "Red Bone",
     "Boss": "false",
     "Level": "13",
@@ -1128,7 +1129,7 @@
       "Condition 2": " If no condition,Fight"
     }
   },
-  "49": {
+   {
     "Name": "Ghoul   ",
     "Boss": "false",
     "Level": "16",
@@ -1151,7 +1152,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "50": {
+   {
     "Name": "Skull   ",
     "Boss": "false",
     "Level": "31",
@@ -1173,7 +1174,7 @@
       "Condition 2": " If no condition,Fight"
     }
   },
-  "51": {
+   {
     "Name": "Revenant",
     "Boss": "false",
     "Level": "17",
@@ -1196,7 +1197,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "52": {
+   {
     "Name": "VampGirl",
     "Boss": "false",
     "Level": "20",
@@ -1219,7 +1220,7 @@
       "Condition 3": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Use Absorb  "
     }
   },
-  "53": {
+   {
     "Name": "CaveNaga",
     "Boss": "false",
     "Level": "20",
@@ -1245,7 +1246,7 @@
       "Condition 1": " If a character uses magic,Cast Slow  on single"
     }
   },
-  "54": {
+   {
     "Name": "D.Bone  ",
     "Boss": "false",
     "Level": "79",
@@ -1269,7 +1270,7 @@
       "Condition 1": " If a character uses Fire magic,Use Fire    "
     }
   },
-  "55": {
+   {
     "Name": "ElecFish",
     "Boss": "false",
     "Level": "17",
@@ -1292,7 +1293,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "56": {
+   {
     "Name": "Crocdile",
     "Boss": "false",
     "Level": "17",
@@ -1314,7 +1315,7 @@
       "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
     }
   },
-  "57": {
+   {
     "Name": "Hydra   ",
     "Boss": "false",
     "Level": "15",
@@ -1336,7 +1337,7 @@
       "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Entangle"
     }
   },
-  "58": {
+   {
     "Name": "AquaWorm",
     "Boss": "false",
     "Level": "18",
@@ -1359,7 +1360,7 @@
       "Condition 3": " If no condition,Use Wave    "
     }
   },
-  "59": {
+   {
     "Name": "Guard   ",
     "Boss": "false",
     "Level": "18",
@@ -1386,7 +1387,7 @@
       "Condition 2": " If a character uses Fight,Cast Size  on single"
     }
   },
-  "60": {
+   {
     "Name": "Lamia   ",
     "Boss": "false",
     "Level": "34",
@@ -1413,7 +1414,7 @@
       "Condition 2": " If a character uses Fight,Use Charm   "
     }
   },
-  "61": {
+   {
     "Name": "StingRat",
     "Boss": "false",
     "Level": "20",
@@ -1439,7 +1440,7 @@
       "Condition 1": " If a character uses Fight,Use Needle  "
     }
   },
-  "62": {
+   {
     "Name": "Python  ",
     "Boss": "false",
     "Level": "20",
@@ -1461,7 +1462,7 @@
       "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Entangle"
     }
   },
-  "63": {
+   {
     "Name": "Grudger ",
     "Boss": "false",
     "Level": "35",
@@ -1484,7 +1485,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "64": {
+   {
     "Name": "Mage    ",
     "Boss": "false",
     "Level": "15",
@@ -1507,7 +1508,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "65": {
+   {
     "Name": "Naga    ",
     "Boss": "false",
     "Level": "27",
@@ -1533,7 +1534,7 @@
       "Condition 1": " If a character uses magic,Use Tongue  "
     }
   },
-  "66": {
+   {
     "Name": "Ogre    ",
     "Boss": "false",
     "Level": "20",
@@ -1556,7 +1557,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "67": {
+   {
     "Name": "Panther ",
     "Boss": "false",
     "Level": "20",
@@ -1579,7 +1580,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "68": {
+   {
     "Name": "SwordMan",
     "Boss": "false",
     "Level": "21",
@@ -1606,7 +1607,7 @@
       "Condition 2": " If a character uses magic and only monster left,Use Curse   "
     }
   },
-  "69": {
+   {
     "Name": "Centaur ",
     "Boss": "false",
     "Level": "21",
@@ -1629,7 +1630,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "70": {
+   {
     "Name": "VampLady",
     "Boss": "false",
     "Level": "41",
@@ -1652,7 +1653,7 @@
       "Condition 3": " If no condition,Fight,Wait,Cast Lit-2 on single,Wait,Fight,Wait,Use Glance  "
     }
   },
-  "71": {
+   {
     "Name": "Marion  ",
     "Boss": "false",
     "Level": "22",
@@ -1675,7 +1676,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "72": {
+   {
     "Name": "Puppet  ",
     "Boss": "false",
     "Level": "22",
@@ -1702,7 +1703,7 @@
       "Condition 3": " If a character uses Bolt magic,Cast Lit-1 on single"
     }
   },
-  "73": {
+   {
     "Name": "GlomWing",
     "Boss": "false",
     "Level": "41",
@@ -1725,7 +1726,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "74": {
+   {
     "Name": "FangShel",
     "Boss": "false",
     "Level": "25",
@@ -1748,7 +1749,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "75": {
+   {
     "Name": "Screamer",
     "Boss": "false",
     "Level": "44",
@@ -1771,7 +1772,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "76": {
+   {
     "Name": "Warrior ",
     "Boss": "false",
     "Level": "49",
@@ -1798,7 +1799,7 @@
       "Condition 2": " If a character uses magic and only monster left,Use Curse   "
     }
   },
-  "77": {
+   {
     "Name": "Armadilo",
     "Boss": "false",
     "Level": "27",
@@ -1821,7 +1822,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "78": {
+   {
     "Name": "EpeeGirl",
     "Boss": "false",
     "Level": "26",
@@ -1847,7 +1848,7 @@
       "Condition 1": " If takes damage,Fight"
     }
   },
-  "79": {
+   {
     "Name": "BladeMan",
     "Boss": "false",
     "Level": "35",
@@ -1874,7 +1875,7 @@
       "Condition 2": " If a character uses Fight,Cast Virus on single"
     }
   },
-  "80": {
+   {
     "Name": "HugeNaga",
     "Boss": "false",
     "Level": "32",
@@ -1901,7 +1902,7 @@
       "Condition 2": " If a character uses magic,Cast Mute  on single"
     }
   },
-  "81": {
+   {
     "Name": "Medusa  ",
     "Boss": "false",
     "Level": "28",
@@ -1924,7 +1925,7 @@
       "Condition 3": " If no condition,Use Ray     "
     }
   },
-  "82": {
+   {
     "Name": "D.Fossil",
     "Boss": "false",
     "Level": "79",
@@ -1948,7 +1949,7 @@
       "Condition 1": " If a character uses Call ,Use Fire    "
     }
   },
-  "83": {
+   {
     "Name": "Tortoise",
     "Boss": "false",
     "Level": "28",
@@ -1971,7 +1972,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "84": {
+   {
     "Name": "Dummy   ",
     "Boss": "false",
     "Level": "29",
@@ -1993,7 +1994,7 @@
       "Condition 2": " If no condition,Fight,Wait,Cast Charm on single,Wait,Fight"
     }
   },
-  "85": {
+   {
     "Name": "Ghost   ",
     "Boss": "false",
     "Level": "39",
@@ -2016,7 +2017,7 @@
       "Condition 3": " If no condition,Cast Fire2 on single,Wait,Fight,Wait,Cast Sleep on single"
     }
   },
-  "86": {
+   {
     "Name": "Bomb    ",
     "Boss": "false",
     "Level": "14",
@@ -2038,7 +2039,7 @@
       "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Explode "
     }
   },
-  "87": {
+   {
     "Name": "GrayBomb",
     "Boss": "false",
     "Level": "14",
@@ -2063,7 +2064,7 @@
       "Condition 1": " If a character uses Fire magic,Use Explode "
     }
   },
-  "88": {
+   {
     "Name": "Chimera ",
     "Boss": "false",
     "Level": "28",
@@ -2086,7 +2087,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "89": {
+   {
     "Name": "Carapace",
     "Boss": "false",
     "Level": "25",
@@ -2109,7 +2110,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "90": {
+   {
     "Name": "Ironback",
     "Boss": "false",
     "Level": "29",
@@ -2132,7 +2133,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "91": {
+   {
     "Name": "FlameDog",
     "Boss": "false",
     "Level": "29",
@@ -2156,7 +2157,7 @@
       "Condition 4": " If no condition,Fight"
     }
   },
-  "92": {
+   {
     "Name": "Gorgon  ",
     "Boss": "false",
     "Level": "32",
@@ -2179,7 +2180,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "93": {
+   {
     "Name": "Stoneman",
     "Boss": "false",
     "Level": "32",
@@ -2202,7 +2203,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "94": {
+   {
     "Name": "Lilith  ",
     "Boss": "false",
     "Level": "33",
@@ -2227,7 +2228,7 @@
       "Condition 1": " If a character uses Fight,Use Slap    "
     }
   },
-  "95": {
+   {
     "Name": "Q.Lamia ",
     "Boss": "false",
     "Level": "34",
@@ -2253,7 +2254,7 @@
       "Condition 2": " If a character uses magic,Use Charm   "
     }
   },
-  "96": {
+   {
     "Name": "TinyToad",
     "Boss": "false",
     "Level": "43",
@@ -2278,7 +2279,7 @@
       "Condition 1": " If unit 26 uses magic,Cast Toad  on single"
     }
   },
-  "97": {
+   {
     "Name": "HugeCell",
     "Boss": "false",
     "Level": "26",
@@ -2303,7 +2304,7 @@
       "Condition 1": " If a character uses Fight,Use Remedy  "
     }
   },
-  "98": {
+   {
     "Name": "Roc     ",
     "Boss": "false",
     "Level": "27",
@@ -2325,7 +2326,7 @@
       "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
     }
   },
-  "99": {
+   {
     "Name": "Sorcerer",
     "Boss": "false",
     "Level": "34",
@@ -2348,7 +2349,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "100": {
+   {
     "Name": "Mad Ogre",
     "Boss": "false",
     "Level": "32",
@@ -2371,7 +2372,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "101": {
+   {
     "Name": "EvilDoll",
     "Boss": "false",
     "Level": "30",
@@ -2398,7 +2399,7 @@
       "Condition 3": " If a character uses Bolt magic,Cast Lit-2 on single"
     }
   },
-  "102": {
+   {
     "Name": "GiantBat",
     "Boss": "false",
     "Level": "31",
@@ -2420,7 +2421,7 @@
       "Condition 2": " If no condition,Use Vampire "
     }
   },
-  "103": {
+   {
     "Name": "Arachne ",
     "Boss": "false",
     "Level": "53",
@@ -2445,7 +2446,7 @@
       "Condition 1": " If a character uses magic,Fight"
     }
   },
-  "104": {
+   {
     "Name": "FlameMan",
     "Boss": "false",
     "Level": "31",
@@ -2468,7 +2469,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "105": {
+   {
     "Name": "Beamer  ",
     "Boss": "false",
     "Level": "50",
@@ -2490,7 +2491,7 @@
       "Condition 2": " If no condition,Use Beam    "
     }
   },
-  "106": {
+   {
     "Name": "Balloon ",
     "Boss": "false",
     "Level": "33",
@@ -2515,7 +2516,7 @@
       "Condition 1": " If a character uses Ice magic,Use Explode "
     }
   },
-  "107": {
+   {
     "Name": "Grenade ",
     "Boss": "false",
     "Level": "39",
@@ -2542,7 +2543,7 @@
       "Condition 2": " If a character uses Fire magic,Use Explode "
     }
   },
-  "108": {
+   {
     "Name": "Plague  ",
     "Boss": "true",
     "Level": "96",
@@ -2564,7 +2565,7 @@
       "Condition 2": " If no condition,Target all characters,Use Count   "
     }
   },
-  "109": {
+   {
     "Name": "Last Arm",
     "Boss": "true",
     "Level": "40",
@@ -2588,7 +2589,7 @@
       "Condition 1": " If self has  1000 HP or less and takes damage,Use Fission "
     }
   },
-  "110": {
+   {
     "Name": "BlackCat",
     "Boss": "false",
     "Level": "35",
@@ -2613,7 +2614,7 @@
       "Condition 1": " If takes damage,Use Bluster "
     }
   },
-  "111": {
+   {
     "Name": "D.Machin",
     "Boss": "false",
     "Level": "67",
@@ -2638,7 +2639,7 @@
       "Condition 1": " If takes damage,Fight"
     }
   },
-  "112": {
+   {
     "Name": "Talantla",
     "Boss": "false",
     "Level": "42",
@@ -2660,7 +2661,7 @@
       "Condition 2": " If no condition,Fight,Wait,Use Quake   "
     }
   },
-  "113": {
+   {
     "Name": "Gremlin ",
     "Boss": "false",
     "Level": "23",
@@ -2685,7 +2686,7 @@
       "Condition 1": " If a character uses magic,Cast Charm on single"
     }
   },
-  "114": {
+   {
     "Name": "Centpede",
     "Boss": "false",
     "Level": "36",
@@ -2710,7 +2711,7 @@
       "Condition 1": " If takes damage and only monster left,Use Quake   "
     }
   },
-  "115": {
+   {
     "Name": "Red Worm",
     "Boss": "false",
     "Level": "37",
@@ -2737,7 +2738,7 @@
       "Condition 2": " If takes damage,Use Vampire "
     }
   },
-  "116": {
+   {
     "Name": "Red Eye ",
     "Boss": "false",
     "Level": "45",
@@ -2759,7 +2760,7 @@
       "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Gaze    "
     }
   },
-  "117": {
+   {
     "Name": "Crawler ",
     "Boss": "false",
     "Level": "43",
@@ -2786,7 +2787,7 @@
       "Condition 2": " If a character uses Fight,Cast Slow  on single"
     }
   },
-  "118": {
+   {
     "Name": "Ice Liz ",
     "Boss": "false",
     "Level": "23",
@@ -2811,7 +2812,7 @@
       "Condition 1": " If a character uses magic,Cast Ice-2 on single"
     }
   },
-  "119": {
+   {
     "Name": "RockMoth",
     "Boss": "false",
     "Level": "39",
@@ -2833,7 +2834,7 @@
       "Condition 2": " If no condition,Fight,Wait,Use Powder  "
     }
   },
-  "120": {
+   {
     "Name": "Were Bat",
     "Boss": "false",
     "Level": "32",
@@ -2855,7 +2856,7 @@
       "Condition 2": " If no condition,Use Vampire "
     }
   },
-  "121": {
+   {
     "Name": "IceBeast",
     "Boss": "false",
     "Level": "40",
@@ -2878,7 +2879,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "122": {
+   {
     "Name": "Conjurer",
     "Boss": "false",
     "Level": "48",
@@ -2901,7 +2902,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "123": {
+   {
     "Name": "Witch   ",
     "Boss": "false",
     "Level": "26",
@@ -2924,7 +2925,7 @@
       "Condition 3": " If no condition,Cast Slow  on single,Wait,Cast Mute  on single"
     }
   },
-  "124": {
+   {
     "Name": "TrapDoor",
     "Boss": "true",
     "Level": "58",
@@ -2948,7 +2949,7 @@
       "Condition 1": " If self has   700 HP or less and takes damage and condition flag is   0,Next action, show message 139,Use Dummy   "
     }
   },
-  "125": {
+   {
     "Name": "ToadLady",
     "Boss": "false",
     "Level": "40",
@@ -2971,7 +2972,7 @@
       "Condition 3": " If no condition,Target all other monsters,Use Dummy   ,Next action, show message 138"
     }
   },
-  "126": {
+   {
     "Name": "DarkTree",
     "Boss": "false",
     "Level": "40",
@@ -2996,7 +2997,7 @@
       "Condition 1": " If a character uses magic,Cast Bersk on single"
     }
   },
-  "127": {
+   {
     "Name": "Mantcore",
     "Boss": "false",
     "Level": "44",
@@ -3018,7 +3019,7 @@
       "Condition 2": " If no condition,Use Blaze   ,Wait,Fight,Wait,Fight"
     }
   },
-  "128": {
+   {
     "Name": "MoonCell",
     "Boss": "false",
     "Level": "48",
@@ -3044,7 +3045,7 @@
       "Condition 1": " If takes damage,Use Remedy  "
     }
   },
-  "129": {
+   {
     "Name": "Breath  ",
     "Boss": "true",
     "Level": "98",
@@ -3068,7 +3069,7 @@
       "Condition 1": " If a character uses magic,Use Blast   "
     }
   },
-  "130": {
+   {
     "Name": "Tofu    ",
     "Boss": "false",
     "Level": "30",
@@ -3091,7 +3092,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "131": {
+   {
     "Name": "Pudding ",
     "Boss": "false",
     "Level": "50",
@@ -3114,7 +3115,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "132": {
+   {
     "Name": "Mind    ",
     "Boss": "true",
     "Level": "98",
@@ -3139,7 +3140,7 @@
       "Condition 2": " If a character uses Holy magic,Target self,Cast  Shell on single"
     }
   },
-  "133": {
+   {
     "Name": "Ironman ",
     "Boss": "false",
     "Level": "36",
@@ -3162,7 +3163,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "134": {
+   {
     "Name": "Green D.",
     "Boss": "false",
     "Level": "37",
@@ -3188,7 +3189,7 @@
       "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   "
     }
   },
-  "135": {
+   {
     "Name": "PinkPuff",
     "Boss": "false",
     "Level": "96",
@@ -3210,7 +3211,7 @@
       "Condition 2": " If no condition,Show message 154,Set condition flag to 1,Do nothing"
     }
   },
-  "136": {
+   {
     "Name": "Alert   ",
     "Boss": "false",
     "Level": "16",
@@ -3236,7 +3237,7 @@
       "Condition 2": " If takes damage,Use Beam    "
     }
   },
-  "137": {
+   {
     "Name": "Machine ",
     "Boss": "false",
     "Level": "60",
@@ -3258,7 +3259,7 @@
       "Condition 2": " If no condition,Fight"
     }
   },
-  "138": {
+   {
     "Name": "MacGiant",
     "Boss": "false",
     "Level": "60",
@@ -3284,7 +3285,7 @@
       "Condition 1": " If a character uses Bolt magic,Use Magnet  "
     }
   },
-  "139": {
+   {
     "Name": "Kary    ",
     "Boss": "false",
     "Level": "61",
@@ -3307,7 +3308,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "140": {
+   {
     "Name": "Molbol  ",
     "Boss": "false",
     "Level": "34",
@@ -3329,7 +3330,7 @@
       "Condition 2": " If no condition,Use Breath  ,Wait,Fight,Wait,Use Digest  ,Wait,Fight"
     }
   },
-  "141": {
+   {
     "Name": "Ging-Ryu",
     "Boss": "false",
     "Level": "97",
@@ -3354,7 +3355,7 @@
       "Condition 1": " If a character uses Call ,Use Tornado "
     }
   },
-  "142": {
+   {
     "Name": "Yellow D",
     "Boss": "false",
     "Level": "40",
@@ -3381,7 +3382,7 @@
       "Condition 2": " If takes damage,Use Thunder "
     }
   },
-  "143": {
+   {
     "Name": "Fiend   ",
     "Boss": "false",
     "Level": "45",
@@ -3406,7 +3407,7 @@
       "Condition 1": " If takes damage,Cast Charm on single"
     }
   },
-  "144": {
+   {
     "Name": "Juclyote",
     "Boss": "false",
     "Level": "54",
@@ -3429,7 +3430,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "145": {
+   {
     "Name": "EvilMask",
     "Boss": "true",
     "Level": "99",
@@ -3451,7 +3452,7 @@
       "Condition 2": " If no condition,Target self,Cast Wall  on single,Wait,Target all characters,Cast Wall  on single,Wait,Set condition flag to 1,Do nothing"
     }
   },
-  "146": {
+   {
     "Name": "Horseman",
     "Boss": "false",
     "Level": "61",
@@ -3474,7 +3475,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "147": {
+   {
     "Name": "RedGiant",
     "Boss": "false",
     "Level": "97",
@@ -3499,7 +3500,7 @@
       "Condition 2": " If a character uses magic,Use Beam    "
     }
   },
-  "148": {
+   {
     "Name": "Staleman",
     "Boss": "false",
     "Level": "32",
@@ -3522,7 +3523,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "149": {
+   {
     "Name": "FatalEye",
     "Boss": "true",
     "Level": "99",
@@ -3545,7 +3546,7 @@
       "Condition 3": " If no condition,Use Count   "
     }
   },
-  "150": {
+   {
     "Name": "D. Lunar",
     "Boss": "true",
     "Level": "99",
@@ -3572,7 +3573,7 @@
       "Condition 3": " If only monster left,Use Fire    "
     }
   },
-  "151": {
+   {
     "Name": "Searcher",
     "Boss": "false",
     "Level": "30",
@@ -3598,7 +3599,7 @@
       "Condition 2": " If takes damage,Use Beam    "
     }
   },
-  "152": {
+   {
     "Name": "Warlock ",
     "Boss": "false",
     "Level": "71",
@@ -3621,7 +3622,7 @@
       "Condition 3": " If no condition,Cast Fire2 on single,Wait,Cast Psych on single,Wait,Cast Drain on single,Wait,Cast Lit-2 on single,Wait,Cast Ice-2 on single"
     }
   },
-  "153": {
+   {
     "Name": "Wyvern  ",
     "Boss": "true",
     "Level": "99",
@@ -3647,7 +3648,7 @@
       "Condition 1": " If a character uses Call ,Set spell power to 6,Use MegaNuke"
     }
   },
-  "154": {
+   {
     "Name": "Procyote",
     "Boss": "false",
     "Level": "61",
@@ -3670,7 +3671,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "155": {
+   {
     "Name": "Ogopogo ",
     "Boss": "true",
     "Level": "62",
@@ -3696,7 +3697,7 @@
       "Condition 3": " If a character uses magic,Use Blaze   "
     }
   },
-  "156": {
+   {
     "Name": "Blue D. ",
     "Boss": "true",
     "Level": "98",
@@ -3721,7 +3722,7 @@
       "Condition 1": " If a character uses Fire magic,Use Blizzard"
     }
   },
-  "157": {
+   {
     "Name": "King-Ryu",
     "Boss": "false",
     "Level": "97",
@@ -3746,7 +3747,7 @@
       "Condition 1": " If takes damage,Use Entangle"
     }
   },
-  "158": {
+   {
     "Name": "Clapper ",
     "Boss": "false",
     "Level": "54",
@@ -3767,7 +3768,7 @@
       "Condition 1": " If no condition,Use Blitz   "
     }
   },
-  "159": {
+   {
     "Name": "Pale Dim",
     "Boss": "true",
     "Level": "98",
@@ -3795,7 +3796,7 @@
       "Condition 5": " If a character uses Bolt magic,Use Blitz   "
     }
   },
-  "160": {
+   {
     "Name": "Red D.  ",
     "Boss": "true",
     "Level": "99",
@@ -3818,7 +3819,7 @@
       "Condition 3": " If no condition,Fight,Wait,Fight,Wait,Start a chain,Fight,Chain into,Fight,End chain"
     }
   },
-  "161": {
+   {
     "Name": "Behemoth",
     "Boss": "true",
     "Level": "99",
@@ -3844,7 +3845,7 @@
       "Condition 3": " If a character uses magic,Fight"
     }
   },
-  "162": {
+   {
     "Name": "D.Mist  ",
     "Boss": "true",
     "Level": "10",
@@ -3868,7 +3869,7 @@
       "Condition 1": " If a character uses Fight and condition flag is   1,Use ColdMist,Show message 3,Show message 4,Show message 5"
     }
   },
-  "163": {
+   {
     "Name": "Octomamm",
     "Boss": "true",
     "Level": "10",
@@ -3899,7 +3900,7 @@
       "Condition 8": " If takes damage,Set condition flag to current flag +1,Do nothing"
     }
   },
-  "164": {
+   {
     "Name": "Antlion ",
     "Boss": "true",
     "Level": "2",
@@ -3923,7 +3924,7 @@
       "Condition 1": " If a character uses Fight,Use Counter "
     }
   },
-  "165": {
+   {
     "Name": "MomBomb ",
     "Boss": "true",
     "Level": "15",
@@ -3946,7 +3947,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "166": {
+   {
     "Name": "Milon   ",
     "Boss": "true",
     "Level": "15",
@@ -3972,7 +3973,7 @@
       "Condition 2": " If takes damage,Cast Lit-1 on single"
     }
   },
-  "167": {
+   {
     "Name": "Milon Z.",
     "Boss": "true",
     "Level": "15",
@@ -3994,7 +3995,7 @@
       "Condition 2": " If no condition,Show message 21,Show message 36,Set condition flag to 1,Do nothing"
     }
   },
-  "168": {
+   {
     "Name": "Baigan  ",
     "Boss": "true",
     "Level": "9",
@@ -4019,7 +4020,7 @@
       "Condition 1": " If a character uses magic,Target self,Cast Wall  on single"
     }
   },
-  "169": {
+   {
     "Name": "RightArm",
     "Boss": "true",
     "Level": "9",
@@ -4041,7 +4042,7 @@
       "Condition 2": " If no condition,Fight,Wait,Use Vampire "
     }
   },
-  "170": {
+   {
     "Name": "Left Arm",
     "Boss": "true",
     "Level": "9",
@@ -4063,7 +4064,7 @@
       "Condition 2": " If no condition,Fight,Wait,Use Entangle,Wait,Fight"
     }
   },
-  "171": {
+   {
     "Name": "Kainazzo",
     "Boss": "true",
     "Level": "16",
@@ -4090,7 +4091,7 @@
       "Condition 2": " If reaction  flag is   1 and a character uses Bolt magic,Start a chain,Set condition flag to 0,Do nothing,Chain into,Set reaction to 0,Do nothing,Chain into,Set sprite to 18,Do nothing,Chain into,Set weakness to Ice,Do nothing,Chain into,Show message 117,Do nothing,End chain"
     }
   },
-  "172": {
+   {
     "Name": "Dark Elf",
     "Boss": "true",
     "Level": "15",
@@ -4112,7 +4113,7 @@
       "Condition 2": " If no condition,Do nothing,Wait,Do nothing,Wait,Do nothing,Wait,Show message 10,Start a chain,Cast Fire2 on group,Chain into,Cast Lit-2 on group,Chain into,Cast Ice-2 on group,End chain,Wait,Cast Weak  on group,Wait,Show message 11,Show message 12,Show message 13,Use Dummy   "
     }
   },
-  "173": {
+   {
     "Name": "Dark Elf",
     "Boss": "true",
     "Level": "15",
@@ -4136,7 +4137,7 @@
       "Condition 1": " If self has 20000 HP or less and takes damage,Start a chain,Show message 14,Do nothing,Chain into,Change music to Boss Battle,Do nothing,Chain into,Use Dummy   ,End chain"
     }
   },
-  "174": {
+   {
     "Name": "Sandy   ",
     "Boss": "true",
     "Level": "16",
@@ -4158,7 +4159,7 @@
       "Condition 2": " If no condition,Next action, show message 101,Target all Type 2 monsters,Cast Wall  on single"
     }
   },
-  "175": {
+   {
     "Name": "Cindy   ",
     "Boss": "true",
     "Level": "16",
@@ -4182,7 +4183,7 @@
       "Condition 4": " If no condition,Next action, show message 46,Fight"
     }
   },
-  "176": {
+   {
     "Name": "Mindy   ",
     "Boss": "true",
     "Level": "16",
@@ -4204,7 +4205,7 @@
       "Condition 2": " If no condition,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Fire2 on single,Wait,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Lit-2 on single,Wait,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Ice-2 on single,Wait,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Virus on single"
     }
   },
-  "177": {
+   {
     "Name": "Golbez  ",
     "Boss": "false",
     "Level": "26",
@@ -4230,7 +4231,7 @@
       "Condition 3": " If a character uses Holy magic,Show message 42,Target self,Use Vanish  "
     }
   },
-  "178": {
+   {
     "Name": "Valvalis",
     "Boss": "true",
     "Level": "36",
@@ -4258,7 +4259,7 @@
       "Condition 3": " If condition flag is   1 and a character uses magic,Next action, show message 47,Next action, show message 48,Do nothing"
     }
   },
-  "179": {
+   {
     "Name": "Cal     ",
     "Boss": "false",
     "Level": "31",
@@ -4283,7 +4284,7 @@
       "Condition 1": " If a character uses Fight,Fight"
     }
   },
-  "180": {
+   {
     "Name": "Calbrena",
     "Boss": "true",
     "Level": "47",
@@ -4310,7 +4311,7 @@
       "Condition 4": " If a character uses Bolt magic,Use Thunder "
     }
   },
-  "181": {
+   {
     "Name": "Golbez  ",
     "Boss": "true",
     "Level": "31",
@@ -4337,7 +4338,7 @@
       "Condition 1": " If self has 19000 HP or less and takes damage,Show message 87,Target self,Use Vanish  "
     }
   },
-  "182": {
+   {
     "Name": "Shadow  ",
     "Boss": "true",
     "Level": "7",
@@ -4358,7 +4359,7 @@
       "Condition 1": " If no condition,Start a chain,Target Yang 2,Use Demolish,Chain into,Target Kain 2,Use Demolish,Chain into,Target Rosa 2,Use Demolish,End chain,Wait,Start a chain,Show message 81,Do nothing,Chain into,Use Dummy   ,Chain into,Use y      ,Chain into,Use         ,End chain"
     }
   },
-  "183": {
+   {
     "Name": "Dr.Lugae",
     "Boss": "true",
     "Level": "32",
@@ -4385,7 +4386,7 @@
       "Condition 1": " If unit 27 uses Fight,Show message 90,Show message 91,Show message 89,Show message 92,Set condition flag to 2,Do nothing"
     }
   },
-  "184": {
+   {
     "Name": "Balnab  ",
     "Boss": "true",
     "Level": "32",
@@ -4409,7 +4410,7 @@
       "Condition 4": " If no condition,Do nothing"
     }
   },
-  "185": {
+   {
     "Name": "Dr.Lugae",
     "Boss": "true",
     "Level": "25",
@@ -4434,7 +4435,7 @@
       "Condition 1": " If takes damage,Use Gas     "
     }
   },
-  "186": {
+   {
     "Name": "K.Eblan ",
     "Boss": "true",
     "Level": "15",
@@ -4455,7 +4456,7 @@
       "Condition 1": " If no condition,Show message 49,Show message 50,Do nothing,Wait,Cast Fire2 on single,Wait,Show message 51,Show message 52,Do nothing,Wait,Cast Fire2 on single,Wait,Cast Fire2 on single,Wait,Show message 53,Do nothing,Wait,Darken screen: 0,Change music to Cry in Sorrow,Target all Type 2 monsters,Use Dummy   ,Set sprite to 31,Set condition flag to 1,Wait,Show message 55,Do nothing,Wait,Show message 56,Do nothing,Wait,Show message 57,Do nothing,Wait,Show message 58,Do nothing,Wait,Show message 109,Do nothing,Wait,Show message 110,Do nothing,Wait,Show message 111,Do nothing,Wait,Show message 112,Do nothing,Wait,Show message 113,Do nothing,Wait,Target self,Use Vanish  "
     }
   },
-  "187": {
+   {
     "Name": "Q.Eblan ",
     "Boss": "true",
     "Level": "15",
@@ -4481,7 +4482,7 @@
       "Condition 1": " If unit 26 uses magic,Set sprite to 96,Show message 54,Do nothing"
     }
   },
-  "188": {
+   {
     "Name": "Rubicant",
     "Boss": "true",
     "Level": "50",
@@ -4514,7 +4515,7 @@
       "Condition 8": " If character  18 is defeated and a character uses Fire magic,Target all characters,Cast Life1 on single"
     }
   },
-  "189": {
+   {
     "Name": "Odin    ",
     "Boss": "true",
     "Level": "53",
@@ -4538,7 +4539,7 @@
       "Condition 1": " If condition flag is   1 and a character uses Bolt magic,Next action, show message 105,Target self,Use Vanish  "
     }
   },
-  "190": {
+   {
     "Name": "Leviatan",
     "Boss": "true",
     "Level": "79",
@@ -4560,7 +4561,7 @@
       "Condition 2": " If no condition,Start a chain,Set sprite to 45,Do nothing,Chain into,Use Big Wave,End chain,Wait,Set sprite to 46,Do nothing,Wait,Cast Ice-2 on single,Wait,Cast Ice-2 on single,Wait,Do nothing,Wait,Start a chain,Set sprite to 45,Do nothing,Chain into,Use Big Wave,End chain,Wait,Set sprite to 46,Do nothing,Wait,Cast Ice-2 on single,Wait,Do nothing"
     }
   },
-  "191": {
+   {
     "Name": "Bahamut ",
     "Boss": "true",
     "Level": "47",
@@ -4584,7 +4585,7 @@
       "Condition 1": " If a character uses magic and condition flag is   1,Target self,Cast Wall  on single,Set condition flag to 1"
     }
   },
-  "192": {
+   {
     "Name": "EvilWall",
     "Boss": "true",
     "Level": "37",
@@ -4609,7 +4610,7 @@
       "Condition 1": " If a character uses magic,Use Petrify "
     }
   },
-  "193": {
+   {
     "Name": "Asura   ",
     "Boss": "true",
     "Level": "63",
@@ -4637,7 +4638,7 @@
       "Condition 3": " If condition flag is   0 and takes damage,Set sprite to 55,Set sprite to 53,Set sprite to 54,Set sprite to 55,Set condition flag to 2,Fight"
     }
   },
-  "194": {
+   {
     "Name": "Elements",
     "Boss": "true",
     "Level": "79",
@@ -4663,7 +4664,7 @@
       "Condition 2": " If condition flag is   0 and self has 40000 HP or less and takes damage,Set condition flag to 1,Set sprite to 17,Set resistances to Fire, Bolt, Dark, Holy, Air, Absorb,Set weakness to Ice, Immune,Change race to Mage,Do nothing"
     }
   },
-  "195": {
+   {
     "Name": "Elements",
     "Boss": "true",
     "Level": "79",
@@ -4688,7 +4689,7 @@
       "Condition 1": " If condition flag is   2 and self has 27000 HP or less and takes damage,Set condition flag to 3,Set sprite to 116,Set resistances to None,Set weakness to Holy,Change race to None,Do nothing"
     }
   },
-  "196": {
+   {
     "Name": "Dark Elf",
     "Boss": "false",
     "Level": "19",
@@ -4709,7 +4710,7 @@
       "Condition 1": " If no condition,Fight,Wait,Use D.Breath"
     }
   },
-  "197": {
+   {
     "Name": "WaterHag",
     "Boss": "true",
     "Level": "5",
@@ -4735,7 +4736,7 @@
       "Condition 3": " If takes damage,Use         ,Show message 65,Show message 66,Show message 67,Set condition flag to 1"
     }
   },
-  "198": {
+   {
     "Name": "CPU     ",
     "Boss": "true",
     "Level": "48",
@@ -4758,7 +4759,7 @@
       "Condition 3": " If no condition,Target self,Cast Wall  on single"
     }
   },
-  "199": {
+   {
     "Name": "Defender",
     "Boss": "true",
     "Level": "48",
@@ -4779,7 +4780,7 @@
       "Condition 1": " If no condition,Target all Type 1 monsters,Use Remedy  "
     }
   },
-  "200": {
+   {
     "Name": "Zemus   ",
     "Boss": "true",
     "Level": "63",
@@ -4804,7 +4805,7 @@
       "Condition 2": " If a character uses Holy magic,Show message 128,Show message 129,Show message 130,Set condition flag to 1,Do nothing"
     }
   },
-  "201": {
+   {
     "Name": "Zeromus ",
     "Boss": "true",
     "Level": "96",
@@ -4831,7 +4832,7 @@
       "Condition 2": " If takes damage,Use Vanish  "
     }
   },
-  "202": {
+   {
     "Name": "Zeromus ",
     "Boss": "true",
     "Level": "96",
@@ -4863,7 +4864,7 @@
       "Condition 6": " If a character uses magic,Set spell power to 14,Cast Nuke  on single"
     }
   },
-  "203": {
+   {
     "Name": "Dragoon ",
     "Boss": "true",
     "Level": "47",
@@ -4886,7 +4887,7 @@
       "Condition 3": " If no condition,Show message 59,Show message 60,Jump ,Wait,Do nothing,Wait,Show message 61,Show message 62,Jump ,Set condition flag to 1"
     }
   },
-  "204": {
+   {
     "Name": "Bard    ",
     "Boss": "true",
     "Level": "5",
@@ -4913,7 +4914,7 @@
       "Condition 4": " If a character uses Fight,Show message 23,Show message 24,Set condition flag to 1,Do nothing"
     }
   },
-  "205": {
+   {
     "Name": "Karate  ",
     "Boss": "true",
     "Level": "31",
@@ -4937,7 +4938,7 @@
       "Condition 1": " If condition flag is   1 and unit 11 uses Fight,Next action, show message 19,Use Dummy   "
     }
   },
-  "206": {
+   {
     "Name": "D.Knight",
     "Boss": "true",
     "Level": "17",
@@ -4962,7 +4963,7 @@
       "Condition 1": " If a character uses Fight,Set condition flag to 1,Do nothing"
     }
   },
-  "207": {
+   {
     "Name": "Girl    ",
     "Boss": "true",
     "Level": "1",
@@ -4983,7 +4984,7 @@
       "Condition 1": " If no condition,Next action, show message 20,Use Call    "
     }
   },
-  "208": {
+   {
     "Name": "Titan   ",
     "Boss": "true",
     "Level": "1",
@@ -5004,7 +5005,7 @@
       "Condition 1": " If no condition,Start a chain,Set sprite to 67,Use Quake   ,Chain into,Use Dummy   ,End chain"
     }
   },
-  "209": {
+   {
     "Name": "FloatEye",
     "Boss": "true",
     "Level": "1",
@@ -5027,7 +5028,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "210": {
+   {
     "Name": "Raven   ",
     "Boss": "true",
     "Level": "1",
@@ -5050,7 +5051,7 @@
       "Condition 3": " If no condition,Fight"
     }
   },
-  "211": {
+   {
     "Name": "Brena   ",
     "Boss": "true",
     "Level": "15",
@@ -5075,7 +5076,7 @@
       "Condition 1": " If a character uses Fight,Fight"
     }
   },
-  "212": {
+   {
     "Name": "Ghast   ",
     "Boss": "false",
     "Level": "15",
@@ -5100,7 +5101,7 @@
       "Condition 1": " If unit 26 uses magic,Cast Drain on single"
     }
   },
-  "213": {
+   {
     "Name": "Balnab-Z",
     "Boss": "true",
     "Level": "47",
@@ -5121,7 +5122,7 @@
       "Condition 1": " If no condition,Fight,Wait,Fight,Wait,Show message 100,Use Explode "
     }
   },
-  "214": {
+   {
     "Name": "Attacker",
     "Boss": "true",
     "Level": "79",

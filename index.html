@@ -38,7 +38,7 @@
 var RData = "";
 document.getElementById('l').addEventListener('click', load);
 $.getJSON("Enemy.json", function (data) {
-    RData = data.1;
+    RData = data.Data;
     ref = $('#Ring')[0];
     for (x of RData) {
         var option = document.createElement("option");

@@ -1,0 +1,5145 @@
+{
+  "1": {
+    "Name": "Imp     ",
+    "Boss": "false",
+    "Level": "3",
+    "Hp": "6",
+    "Xp": "20",
+    "Gil": "10",
+    "Attack": "19x1  75%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "2": {
+    "Name": "Basilisk",
+    "Boss": "false",
+    "Level": "5",
+    "Hp": "90",
+    "Xp": "120",
+    "Gil": "30",
+    "Attack": "15x2  90%",
+    "Defense": "2",
+    "M. Defense": "9",
+    "Speed": "3 to 6",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Petrify ",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Petrify "
+    }
+  },
+  "3": {
+    "Name": "Eagle   ",
+    "Boss": "false",
+    "Level": "5",
+    "Hp": "18",
+    "Xp": "30",
+    "Gil": "10",
+    "Attack": "21x1  80%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Beak    ",
+      "Condition 2": " If no condition,Fight"
+    }
+  },
+  "4": {
+    "Name": "FloatEye",
+    "Boss": "false",
+    "Level": "4",
+    "Hp": "20",
+    "Xp": "40",
+    "Gil": "10",
+    "Attack": "20x1  80%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "1 to 3",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog Berserk Sleep Stun",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Fatal on single",
+      "Condition 2": " If no condition,Fight"
+    }
+  },
+  "5": {
+    "Name": "Larva   ",
+    "Boss": "false",
+    "Level": "5",
+    "Hp": "28",
+    "Xp": "50",
+    "Gil": "15",
+    "Attack": "20x1  80%",
+    "Defense": "1",
+    "M. Defense": "4",
+    "Speed": "1 to 3",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If all monsters are same type,Fight",
+      "Condition 3": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Psych on single"
+    }
+  },
+  "6": {
+    "Name": "Cave Bat",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "150",
+    "Xp": "630",
+    "Gil": "155",
+    "Attack": "42x3  95%",
+    "Defense": "3",
+    "M. Defense": "12",
+    "Speed": "12 to 15",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb Pig Mini Frog",
+    "Weaknesses": "Holy Air Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Vampire ",
+      "Condition 2": " If no condition,Use Vampire "
+    }
+  },
+  "7": {
+    "Name": "Treant  ",
+    "Boss": "false",
+    "Level": "19",
+    "Hp": "260",
+    "Xp": "1000",
+    "Gil": "150",
+    "Attack": "48x4  90%",
+    "Defense": "1",
+    "M. Defense": "15",
+    "Speed": "13 to 16",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Fire",
+    "SpellPower": "2",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Beak    ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight and only monster left,Cast Stop  on single"
+    }
+  },
+  "8": {
+    "Name": "SwordRat",
+    "Boss": "false",
+    "Level": "4",
+    "Hp": "30",
+    "Xp": "70",
+    "Gil": "20",
+    "Attack": "21x1  80%",
+    "Defense": "0",
+    "M. Defense": "11",
+    "Speed": "1 to 3",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Needle  ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Use Needle  "
+    }
+  },
+  "9": {
+    "Name": "TinyMage",
+    "Boss": "false",
+    "Level": "6",
+    "Hp": "69",
+    "Xp": "260",
+    "Gil": "100",
+    "Attack": "19x1  75%",
+    "Defense": "2",
+    "M. Defense": "38",
+    "Speed": "2 to 4",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "3",
+    "Race": "Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Cast Fatal on single",
+      "Condition 2": " If no condition,Cast Lit-1 on single,Wait,Cast Ice-1 on single,Wait,Cast Fire1 on single"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Psych on single",
+      "Condition 2": " If a character uses Fight,Cast Hold  on single"
+    }
+  },
+  "10": {
+    "Name": "Sand Man",
+    "Boss": "false",
+    "Level": "5",
+    "Hp": "20",
+    "Xp": "80",
+    "Gil": "20",
+    "Attack": "20x1  80%",
+    "Defense": "0",
+    "M. Defense": "4",
+    "Speed": "2 to 4",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "11": {
+    "Name": "SandMoth",
+    "Boss": "false",
+    "Level": "5",
+    "Hp": "40",
+    "Xp": "80",
+    "Gil": "20",
+    "Attack": "21x1  80%",
+    "Defense": "3",
+    "M. Defense": "5",
+    "Speed": "2 to 4",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If all monsters are same type,Fight,Wait,Use Powder  ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "12": {
+    "Name": "Sandpede",
+    "Boss": "false",
+    "Level": "6",
+    "Hp": "60",
+    "Xp": "80",
+    "Gil": "25",
+    "Attack": "11x2  85%",
+    "Defense": "3",
+    "M. Defense": "4",
+    "Speed": "2 to 4",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target all monsters,Use Quake   ",
+      "Condition 2": " If only monster left,Fight,Wait,Use Quake   ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "13": {
+    "Name": "SandWorm",
+    "Boss": "false",
+    "Level": "6",
+    "Hp": "75",
+    "Xp": "90",
+    "Gil": "25",
+    "Attack": "16x2  90%",
+    "Defense": "2",
+    "M. Defense": "7",
+    "Speed": "1 to 3",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Sleep",
+    "Weaknesses": "None",
+    "SpellPower": "10",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target all monsters,Use Tornado ",
+      "Condition 2": " If only monster left,Use Tornado ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "14": {
+    "Name": "CaveToad",
+    "Boss": "false",
+    "Level": "6",
+    "Hp": "44",
+    "Xp": "90",
+    "Gil": "25",
+    "Attack": "11x2  85%",
+    "Defense": "2",
+    "M. Defense": "6",
+    "Speed": "2 to 5",
+    "Attack Element": "None",
+    "Resistances": "Frog",
+    "Weaknesses": "Ice",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If only monster left,Cast Toad  on single",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "15": {
+    "Name": "EvilShel",
+    "Boss": "false",
+    "Level": "6",
+    "Hp": "58",
+    "Xp": "110",
+    "Gil": "30",
+    "Attack": "11x2  85%",
+    "Defense": "1",
+    "M. Defense": "8",
+    "Speed": "3 to 6",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Bolt Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "16": {
+    "Name": "Zombie  ",
+    "Boss": "false",
+    "Level": "6",
+    "Hp": "40",
+    "Xp": "120",
+    "Gil": "35",
+    "Attack": "13x2  85%",
+    "Defense": "2",
+    "M. Defense": "9",
+    "Speed": "2 to 5",
+    "Attack Element": "None",
+    "Resistances": "Dark Immune Poison Pig Mini Frog KO Sleep Stun",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "17": {
+    "Name": "Pike    ",
+    "Boss": "false",
+    "Level": "7",
+    "Hp": "65",
+    "Xp": "120",
+    "Gil": "35",
+    "Attack": "11x2  85%",
+    "Defense": "1",
+    "M. Defense": "7",
+    "Speed": "3 to 6",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Bolt Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "18": {
+    "Name": "TrapRose",
+    "Boss": "false",
+    "Level": "23",
+    "Hp": "300",
+    "Xp": "1210",
+    "Gil": "35",
+    "Attack": "62x5  80%",
+    "Defense": "2",
+    "M. Defense": "6",
+    "Speed": "17 to 20",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog",
+    "Weaknesses": "Fire Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If all monsters are same type,Use Pollen  ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "19": {
+    "Name": "Mad Toad",
+    "Boss": "false",
+    "Level": "7",
+    "Hp": "59",
+    "Xp": "130",
+    "Gil": "35",
+    "Attack": "11x2  85%",
+    "Defense": "1",
+    "M. Defense": "7",
+    "Speed": "5 to 8",
+    "Attack Element": "None",
+    "Resistances": "Frog",
+    "Weaknesses": "Ice",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Cast Toad  on single"
+    }
+  },
+  "20": {
+    "Name": "Jelly   ",
+    "Boss": "false",
+    "Level": "7",
+    "Hp": "35",
+    "Xp": "140",
+    "Gil": "35",
+    "Attack": "15x2  90%",
+    "Defense": "254",
+    "M. Defense": "7",
+    "Speed": "5 to 8",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "Fire Immune",
+    "SpellPower": "None",
+    "Race": "Slime",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "21": {
+    "Name": "Cream   ",
+    "Boss": "false",
+    "Level": "8",
+    "Hp": "55",
+    "Xp": "150",
+    "Gil": "35",
+    "Attack": "16x2  90%",
+    "Defense": "254",
+    "M. Defense": "12",
+    "Speed": "6 to 9",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "Bolt Immune",
+    "SpellPower": "None",
+    "Race": "Slime",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "22": {
+    "Name": "WaterHag",
+    "Boss": "false",
+    "Level": "8",
+    "Hp": "48",
+    "Xp": "140",
+    "Gil": "40",
+    "Attack": "18x2  95%",
+    "Defense": "2",
+    "M. Defense": "7",
+    "Speed": "10 to 13",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Bolt",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "23": {
+    "Name": "Weeper  ",
+    "Boss": "false",
+    "Level": "9",
+    "Hp": "100",
+    "Xp": "160",
+    "Gil": "40",
+    "Attack": "18x2  95%",
+    "Defense": "2",
+    "M. Defense": "10",
+    "Speed": "6 to 9",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "144",
+    "Race": "Spirit",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "24": {
+    "Name": "RocLarva",
+    "Boss": "false",
+    "Level": "36",
+    "Hp": "800",
+    "Xp": "2830",
+    "Gil": "40",
+    "Attack": "72x6  70%",
+    "Defense": "3",
+    "M. Defense": "17",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Drain on single",
+      "Condition 2": " If all monsters are same type,Fight",
+      "Condition 3": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Psych on single",
+      "Condition 2": " If a character uses Fight,Cast Slow  on single"
+    }
+  },
+  "25": {
+    "Name": "Dark Imp",
+    "Boss": "false",
+    "Level": "16",
+    "Hp": "199",
+    "Xp": "1940",
+    "Gil": "45",
+    "Attack": "56x5  70%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "18 to 21",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "26": {
+    "Name": "BlackLiz",
+    "Boss": "false",
+    "Level": "25",
+    "Hp": "700",
+    "Xp": "1300",
+    "Gil": "45",
+    "Attack": "62x5  80%",
+    "Defense": "4",
+    "M. Defense": "15",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice",
+    "SpellPower": "16",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Use Petrify ",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   ",
+      "Condition 2": " If a character uses Fight,Use Petrify "
+    }
+  },
+  "27": {
+    "Name": "Turtle  ",
+    "Boss": "false",
+    "Level": "12",
+    "Hp": "150",
+    "Xp": "240",
+    "Gil": "80",
+    "Attack": "20x2  99%",
+    "Defense": "1",
+    "M. Defense": "10",
+    "Speed": "6 to 9",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "28": {
+    "Name": "Imp Cap.",
+    "Boss": "false",
+    "Level": "9",
+    "Hp": "37",
+    "Xp": "190",
+    "Gil": "50",
+    "Attack": "15x2  90%",
+    "Defense": "0",
+    "M. Defense": "7",
+    "Speed": "4 to 7",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "29": {
+    "Name": "Slime   ",
+    "Boss": "false",
+    "Level": "21",
+    "Hp": "50",
+    "Xp": "760",
+    "Gil": "50",
+    "Attack": "50x4  90%",
+    "Defense": "254",
+    "M. Defense": "9",
+    "Speed": "13 to 16",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "Fire",
+    "SpellPower": "None",
+    "Race": "Slime",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "30": {
+    "Name": "Soldier ",
+    "Boss": "false",
+    "Level": "9",
+    "Hp": "27",
+    "Xp": "160",
+    "Gil": "55",
+    "Attack": "20x2  99%",
+    "Defense": "0",
+    "M. Defense": "4",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If formation index is 248,Fight",
+      "Condition 2": " If all monsters are same type,Target random monster,Fight",
+      "Condition 3": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 26 uses magic,Fight"
+    }
+  },
+  "31": {
+    "Name": "Officer ",
+    "Boss": "false",
+    "Level": "11",
+    "Hp": "221",
+    "Xp": "400",
+    "Gil": "80",
+    "Attack": "26x3  75%",
+    "Defense": "2",
+    "M. Defense": "12",
+    "Speed": "2 to 4",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Target self,Use Retreat ",
+      "Condition 2": " If no condition,Target all other monsters,Use Dummy   ,Next action, show message 83"
+    }
+  },
+  "32": {
+    "Name": "Needler ",
+    "Boss": "false",
+    "Level": "14",
+    "Hp": "110",
+    "Xp": "370",
+    "Gil": "55",
+    "Attack": "20x2  99%",
+    "Defense": "2",
+    "M. Defense": "8",
+    "Speed": "7 to 10",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Needle  ",
+      "Condition 2": " If only monster left,Use Needle  ",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Use Needle  "
+    }
+  },
+  "33": {
+    "Name": "Tricker ",
+    "Boss": "false",
+    "Level": "97",
+    "Hp": "12000",
+    "Xp": "21000",
+    "Gil": "10700",
+    "Attack": "174x13  99%",
+    "Defense": "3",
+    "M. Defense": "0",
+    "Speed": "66 to 66",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Bolt",
+    "SpellPower": "143",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   2,Target all characters,Cast Lit-3 on single",
+      "Condition 2": " If no condition,Target self,Cast Peep  on single"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Bolt magic,Show message 176,Show message 179,Target self,Cast Fast  on single,Set condition flag to 2"
+    }
+  },
+  "34": {
+    "Name": "Cannibal",
+    "Boss": "false",
+    "Level": "19",
+    "Hp": "370",
+    "Xp": "960",
+    "Gil": "220",
+    "Attack": "24x3  75%",
+    "Defense": "2",
+    "M. Defense": "12",
+    "Speed": "12 to 15",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog",
+    "Weaknesses": "Fire",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If all monsters are same type,Use Pollen  ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "35": {
+    "Name": "Spirit  ",
+    "Boss": "false",
+    "Level": "10",
+    "Hp": "50",
+    "Xp": "290",
+    "Gil": "125",
+    "Attack": "24x3  75%",
+    "Defense": "1",
+    "M. Defense": "9",
+    "Speed": "4 to 7",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Poison Blind Petrify KO Calcify 1 Calcify 2 Sleep Stun",
+    "Weaknesses": "Holy Immune",
+    "SpellPower": "2",
+    "Race": "Spirit",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Fire1 on single",
+      "Condition 2": " If a character uses Ice magic,Do nothing",
+      "Condition 3": " If no condition,Cast Fire1 on single,Wait,Fight"
+    }
+  },
+  "36": {
+    "Name": "Skelton ",
+    "Boss": "false",
+    "Level": "10",
+    "Hp": "50",
+    "Xp": "240",
+    "Gil": "125",
+    "Attack": "20x2  99%",
+    "Defense": "2",
+    "M. Defense": "4",
+    "Speed": "6 to 9",
+    "Attack Element": "None",
+    "Resistances": "Dark Poison Blind Mute Pig Mini Frog KO Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "Fire Holy Immune",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Cast Lit-1 on single",
+      "Condition 2": " If no condition,Fight"
+    }
+  },
+  "37": {
+    "Name": "Cocktric",
+    "Boss": "false",
+    "Level": "11",
+    "Hp": "100",
+    "Xp": "280",
+    "Gil": "120",
+    "Attack": "24x3  75%",
+    "Defense": "3",
+    "M. Defense": "11",
+    "Speed": "5 to 8",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Air Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Beak    ",
+      "Condition 2": " If a character uses magic and only monster left,Use Beak    ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "38": {
+    "Name": "Gargoyle",
+    "Boss": "false",
+    "Level": "12",
+    "Hp": "160",
+    "Xp": "320",
+    "Gil": "100",
+    "Attack": "28x3  80%",
+    "Defense": "2",
+    "M. Defense": "12",
+    "Speed": "6 to 9",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini KO",
+    "Weaknesses": "Holy Air Immune",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Weak  on single",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Cast Weak  on single"
+    }
+  },
+  "39": {
+    "Name": "Roc Baby",
+    "Boss": "false",
+    "Level": "23",
+    "Hp": "50",
+    "Xp": "1010",
+    "Gil": "85",
+    "Attack": "60x5  80%",
+    "Defense": "2",
+    "M. Defense": "9",
+    "Speed": "30 to 33",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Air Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Beak    ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Use Beak    "
+    }
+  },
+  "40": {
+    "Name": "Hooligan",
+    "Boss": "false",
+    "Level": "48",
+    "Hp": "1900",
+    "Xp": "4090",
+    "Gil": "485",
+    "Attack": "108x8  99%",
+    "Defense": "3",
+    "M. Defense": "12",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini KO",
+    "Weaknesses": "Holy Air",
+    "SpellPower": "None",
+    "Race": "Spirit",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Weak  on single",
+      "Condition 2": " If a character uses magic,Cast Weak  on single,Wait,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "41": {
+    "Name": "Raven   ",
+    "Boss": "false",
+    "Level": "15",
+    "Hp": "941",
+    "Xp": "740",
+    "Gil": "700",
+    "Attack": "28x3  80%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "3 to 6",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
+    }
+  },
+  "42": {
+    "Name": "WaterBug",
+    "Boss": "false",
+    "Level": "8",
+    "Hp": "110",
+    "Xp": "230",
+    "Gil": "80",
+    "Attack": "16x2  90%",
+    "Defense": "3",
+    "M. Defense": "11",
+    "Speed": "5 to 8",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Bolt",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target self,Use Retreat ",
+      "Condition 2": " If no condition,Do nothing,Wait,Do nothing,Wait,Fight,Wait,Use Retreat "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Use Remedy  "
+    }
+  },
+  "43": {
+    "Name": "Aligator",
+    "Boss": "false",
+    "Level": "8",
+    "Hp": "150",
+    "Xp": "240",
+    "Gil": "95",
+    "Attack": "20x2  99%",
+    "Defense": "2",
+    "M. Defense": "10",
+    "Speed": "4 to 7",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
+    }
+  },
+  "44": {
+    "Name": "Piranha ",
+    "Boss": "false",
+    "Level": "16",
+    "Hp": "105",
+    "Xp": "460",
+    "Gil": "145",
+    "Attack": "30x3  80%",
+    "Defense": "3",
+    "M. Defense": "10",
+    "Speed": "10 to 13",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Bolt",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "45": {
+    "Name": "Fighter ",
+    "Boss": "false",
+    "Level": "12",
+    "Hp": "65",
+    "Xp": "410",
+    "Gil": "100",
+    "Attack": "28x3  80%",
+    "Defense": "2",
+    "M. Defense": "4",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "Dark Holy Charm",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If formation index is 248,Fight",
+      "Condition 2": " If all monsters are same type,Target random monster,Fight",
+      "Condition 3": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 26 uses magic,Fight"
+    }
+  },
+  "46": {
+    "Name": "General ",
+    "Boss": "false",
+    "Level": "15",
+    "Hp": "320",
+    "Xp": "610",
+    "Gil": "155",
+    "Attack": "36x3  90%",
+    "Defense": "2",
+    "M. Defense": "11",
+    "Speed": "6 to 9",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Target self,Use Retreat ",
+      "Condition 2": " If no condition,Target all other monsters,Use Dummy   ,Next action, show message 82"
+    }
+  },
+  "47": {
+    "Name": "Soul    ",
+    "Boss": "false",
+    "Level": "16",
+    "Hp": "150",
+    "Xp": "510",
+    "Gil": "165",
+    "Attack": "28x3  80%",
+    "Defense": "3",
+    "M. Defense": "10",
+    "Speed": "9 to 12",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Poison Blind Petrify KO Calcify 1 Calcify 2 Sleep Stun",
+    "Weaknesses": "Holy Immune",
+    "SpellPower": "None",
+    "Race": "Spirit",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Fire1 on single",
+      "Condition 2": " If a character uses Ice magic,Do nothing",
+      "Condition 3": " If no condition,Cast Fire1 on single,Wait,Fight"
+    }
+  },
+  "48": {
+    "Name": "Red Bone",
+    "Boss": "false",
+    "Level": "13",
+    "Hp": "170",
+    "Xp": "320",
+    "Gil": "170",
+    "Attack": "34x3  85%",
+    "Defense": "3",
+    "M. Defense": "10",
+    "Speed": "8 to 11",
+    "Attack Element": "None",
+    "Resistances": "Dark Poison Blind Mute Pig Mini Frog KO Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "Fire Holy Immune",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Cast Lit-1 on single",
+      "Condition 2": " If no condition,Fight"
+    }
+  },
+  "49": {
+    "Name": "Ghoul   ",
+    "Boss": "false",
+    "Level": "16",
+    "Hp": "120",
+    "Xp": "580",
+    "Gil": "180",
+    "Attack": "32x3  85%",
+    "Defense": "2",
+    "M. Defense": "11",
+    "Speed": "9 to 12",
+    "Attack Element": "None",
+    "Resistances": "Dark Immune Poison Pig Mini Frog KO Sleep Stun",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "50": {
+    "Name": "Skull   ",
+    "Boss": "false",
+    "Level": "31",
+    "Hp": "740",
+    "Xp": "1580",
+    "Gil": "120",
+    "Attack": "74x6  70%",
+    "Defense": "3",
+    "M. Defense": "18",
+    "Speed": "21 to 24",
+    "Attack Element": "Curse",
+    "Resistances": "Dark Poison Blind Mute Pig Mini Frog KO Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "Fire Holy Immune",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Cast Lit-2 on single",
+      "Condition 2": " If no condition,Fight"
+    }
+  },
+  "51": {
+    "Name": "Revenant",
+    "Boss": "false",
+    "Level": "17",
+    "Hp": "160",
+    "Xp": "680",
+    "Gil": "190",
+    "Attack": "36x3  90%",
+    "Defense": "1",
+    "M. Defense": "12",
+    "Speed": "10 to 13",
+    "Attack Element": "None",
+    "Resistances": "Dark Immune Poison Pig Mini Frog KO Sleep Stun",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "52": {
+    "Name": "VampGirl",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "250",
+    "Xp": "820",
+    "Gil": "195",
+    "Attack": "38x3  90%",
+    "Defense": "2",
+    "M. Defense": "15",
+    "Speed": "13 to 16",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb KO",
+    "Weaknesses": "Fire Holy Immune",
+    "SpellPower": "21",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Vampire ",
+      "Condition 2": " If all monsters are same type,Use Vampire ",
+      "Condition 3": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Use Absorb  "
+    }
+  },
+  "53": {
+    "Name": "CaveNaga",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "255",
+    "Xp": "750",
+    "Gil": "205",
+    "Attack": "40x3  95%",
+    "Defense": "3",
+    "M. Defense": "12",
+    "Speed": "14 to 17",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Holy Immune",
+    "SpellPower": "5",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Slow  on single"
+    }
+  },
+  "54": {
+    "Name": "D.Bone  ",
+    "Boss": "false",
+    "Level": "79",
+    "Hp": "9000",
+    "Xp": "14100",
+    "Gil": "6750",
+    "Attack": "140x11  75%",
+    "Defense": "3",
+    "M. Defense": "38",
+    "Speed": "33 to 36",
+    "Attack Element": "Poison",
+    "Resistances": "Dark Immune Poison Blind Mute Pig Mini Frog KO Berserk Sleep Stun Float Curse",
+    "Weaknesses": "Fire",
+    "SpellPower": "None",
+    "Race": "Dragon Zombie",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fire magic,Use Fire    "
+    }
+  },
+  "55": {
+    "Name": "ElecFish",
+    "Boss": "false",
+    "Level": "17",
+    "Hp": "200",
+    "Xp": "650",
+    "Gil": "230",
+    "Attack": "40x3  95%",
+    "Defense": "2",
+    "M. Defense": "13",
+    "Speed": "9 to 12",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb Pig Mini",
+    "Weaknesses": "Air Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "56": {
+    "Name": "Crocdile",
+    "Boss": "false",
+    "Level": "17",
+    "Hp": "292",
+    "Xp": "870",
+    "Gil": "300",
+    "Attack": "38x3  90%",
+    "Defense": "2",
+    "M. Defense": "12",
+    "Speed": "8 to 11",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
+    }
+  },
+  "57": {
+    "Name": "Hydra   ",
+    "Boss": "false",
+    "Level": "15",
+    "Hp": "200",
+    "Xp": "680",
+    "Gil": "230",
+    "Attack": "38x3  90%",
+    "Defense": "2",
+    "M. Defense": "14",
+    "Speed": "9 to 12",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice Bolt",
+    "SpellPower": "26",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Entangle"
+    }
+  },
+  "58": {
+    "Name": "AquaWorm",
+    "Boss": "false",
+    "Level": "18",
+    "Hp": "638",
+    "Xp": "1200",
+    "Gil": "350",
+    "Attack": "44x3  99%",
+    "Defense": "0",
+    "M. Defense": "22",
+    "Speed": "10 to 13",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Sleep",
+    "Weaknesses": "Bolt",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If all monsters are same type,Fight",
+      "Condition 3": " If no condition,Use Wave    "
+    }
+  },
+  "59": {
+    "Name": "Guard   ",
+    "Boss": "false",
+    "Level": "18",
+    "Hp": "200",
+    "Xp": "720",
+    "Gil": "500",
+    "Attack": "46x3  99%",
+    "Defense": "1",
+    "M. Defense": "14",
+    "Speed": "11 to 14",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "26",
+    "Race": "Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Piggy on single",
+      "Condition 2": " If a character uses Fight,Cast Size  on single"
+    }
+  },
+  "60": {
+    "Name": "Lamia   ",
+    "Boss": "false",
+    "Level": "34",
+    "Hp": "1200",
+    "Xp": "2060",
+    "Gil": "1210",
+    "Attack": "68x5  99%",
+    "Defense": "4",
+    "M. Defense": "16",
+    "Speed": "24 to 27",
+    "Attack Element": "None",
+    "Resistances": "Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   ",
+      "Condition 2": " If a character uses Fight,Use Charm   "
+    }
+  },
+  "61": {
+    "Name": "StingRat",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "300",
+    "Xp": "1210",
+    "Gil": "220",
+    "Attack": "44x3  99%",
+    "Defense": "3",
+    "M. Defense": "0",
+    "Speed": "11 to 14",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Needle  ",
+      "Condition 2": " If all monsters are same type,Use Needle  ",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Use Needle  "
+    }
+  },
+  "62": {
+    "Name": "Python  ",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "90",
+    "Xp": "760",
+    "Gil": "225",
+    "Attack": "46x3  99%",
+    "Defense": "0",
+    "M. Defense": "22",
+    "Speed": "9 to 12",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice Holy Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Entangle"
+    }
+  },
+  "63": {
+    "Name": "Grudger ",
+    "Boss": "false",
+    "Level": "35",
+    "Hp": "1400",
+    "Xp": "2460",
+    "Gil": "150",
+    "Attack": "70x5  99%",
+    "Defense": "4",
+    "M. Defense": "22",
+    "Speed": "26 to 29",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb",
+    "Weaknesses": "Holy",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "64": {
+    "Name": "Mage    ",
+    "Boss": "false",
+    "Level": "15",
+    "Hp": "500",
+    "Xp": "1100",
+    "Gil": "235",
+    "Attack": "44x3  99%",
+    "Defense": "3",
+    "M. Defense": "22",
+    "Speed": "3 to 6",
+    "Attack Element": "None",
+    "Resistances": "Poison KO Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Cast Peep  on single",
+      "Condition 2": " If all monsters are same type,Use Blast   ,Wait,Cast Drain on single",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "65": {
+    "Name": "Naga    ",
+    "Boss": "false",
+    "Level": "27",
+    "Hp": "900",
+    "Xp": "1120",
+    "Gil": "150",
+    "Attack": "66x5  90%",
+    "Defense": "3",
+    "M. Defense": "14",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "5",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Use Tongue  "
+    }
+  },
+  "66": {
+    "Name": "Ogre    ",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "865",
+    "Xp": "1100",
+    "Gil": "240",
+    "Attack": "60x5  80%",
+    "Defense": "2",
+    "M. Defense": "12",
+    "Speed": "7 to 10",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "Holy",
+    "SpellPower": "None",
+    "Race": "Giant",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "67": {
+    "Name": "Panther ",
+    "Boss": "false",
+    "Level": "20",
+    "Hp": "285",
+    "Xp": "830",
+    "Gil": "255",
+    "Attack": "48x4  90%",
+    "Defense": "2",
+    "M. Defense": "16",
+    "Speed": "7 to 10",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "Holy",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Bluster ",
+      "Condition 2": " If only monster left,Use Bluster ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "68": {
+    "Name": "SwordMan",
+    "Boss": "false",
+    "Level": "21",
+    "Hp": "320",
+    "Xp": "1100",
+    "Gil": "175",
+    "Attack": "56x5  70%",
+    "Defense": "2",
+    "M. Defense": "19",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Dark Immune KO",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight and only monster left,Use Absorb  ",
+      "Condition 2": " If a character uses magic and only monster left,Use Curse   "
+    }
+  },
+  "69": {
+    "Name": "Centaur ",
+    "Boss": "false",
+    "Level": "21",
+    "Hp": "380",
+    "Xp": "1000",
+    "Gil": "175",
+    "Attack": "54x4  99%",
+    "Defense": "1",
+    "M. Defense": "10",
+    "Speed": "14 to 17",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "70": {
+    "Name": "VampLady",
+    "Boss": "false",
+    "Level": "41",
+    "Hp": "2375",
+    "Xp": "4600",
+    "Gil": "190",
+    "Attack": "88x7  80%",
+    "Defense": "4",
+    "M. Defense": "24",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "31",
+    "Race": "Mage Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Vampire ",
+      "Condition 2": " If all monsters are same type,Use Vampire ",
+      "Condition 3": " If no condition,Fight,Wait,Cast Lit-2 on single,Wait,Fight,Wait,Use Glance  "
+    }
+  },
+  "71": {
+    "Name": "Marion  ",
+    "Boss": "false",
+    "Level": "22",
+    "Hp": "473",
+    "Xp": "1110",
+    "Gil": "195",
+    "Attack": "54x4  99%",
+    "Defense": "3",
+    "M. Defense": "17",
+    "Speed": "15 to 18",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "35",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Fatal on single",
+      "Condition 2": " If only monster left,Use Call    ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "72": {
+    "Name": "Puppet  ",
+    "Boss": "false",
+    "Level": "22",
+    "Hp": "256",
+    "Xp": "950",
+    "Gil": "180",
+    "Attack": "56x5  70%",
+    "Defense": "3",
+    "M. Defense": "16",
+    "Speed": "16 to 19",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Fire",
+    "SpellPower": "15",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Cast Bersk on single",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fire magic,Cast Fire1 on single",
+      "Condition 2": " If a character uses Ice magic,Cast Ice-1 on single",
+      "Condition 3": " If a character uses Bolt magic,Cast Lit-1 on single"
+    }
+  },
+  "73": {
+    "Name": "GlomWing",
+    "Boss": "false",
+    "Level": "41",
+    "Hp": "1380",
+    "Xp": "2860",
+    "Gil": "510",
+    "Attack": "88x7  80%",
+    "Defense": "4",
+    "M. Defense": "254",
+    "Speed": "31 to 34",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Air Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If all monsters are same type,Fight,Wait,Use Powder  ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "74": {
+    "Name": "FangShel",
+    "Boss": "false",
+    "Level": "25",
+    "Hp": "300",
+    "Xp": "1050",
+    "Gil": "350",
+    "Attack": "42x3  95%",
+    "Defense": "2",
+    "M. Defense": "15",
+    "Speed": "13 to 16",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Bolt Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "75": {
+    "Name": "Screamer",
+    "Boss": "false",
+    "Level": "44",
+    "Hp": "1000",
+    "Xp": "3100",
+    "Gil": "205",
+    "Attack": "84x6  90%",
+    "Defense": "4",
+    "M. Defense": "22",
+    "Speed": "33 to 36",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot Giant",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "76": {
+    "Name": "Warrior ",
+    "Boss": "false",
+    "Level": "49",
+    "Hp": "2400",
+    "Xp": "4300",
+    "Gil": "575",
+    "Attack": "102x8  80%",
+    "Defense": "4",
+    "M. Defense": "17",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight and only monster left,Use Absorb  ",
+      "Condition 2": " If a character uses magic and only monster left,Use Curse   "
+    }
+  },
+  "77": {
+    "Name": "Armadilo",
+    "Boss": "false",
+    "Level": "27",
+    "Hp": "300",
+    "Xp": "1600",
+    "Gil": "195",
+    "Attack": "58x5  70%",
+    "Defense": "4",
+    "M. Defense": "12",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "78": {
+    "Name": "EpeeGirl",
+    "Boss": "false",
+    "Level": "26",
+    "Hp": "390",
+    "Xp": "1260",
+    "Gil": "200",
+    "Attack": "56x5  70%",
+    "Defense": "3",
+    "M. Defense": "15",
+    "Speed": "17 to 20",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Fight"
+    }
+  },
+  "79": {
+    "Name": "BladeMan",
+    "Boss": "false",
+    "Level": "35",
+    "Hp": "1050",
+    "Xp": "2600",
+    "Gil": "215",
+    "Attack": "72x6  70%",
+    "Defense": "4",
+    "M. Defense": "19",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Holy",
+    "SpellPower": "None",
+    "Race": "Spirit",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Wall  on single",
+      "Condition 2": " If a character uses Fight,Cast Virus on single"
+    }
+  },
+  "80": {
+    "Name": "HugeNaga",
+    "Boss": "false",
+    "Level": "32",
+    "Hp": "1200",
+    "Xp": "3600",
+    "Gil": "240",
+    "Attack": "78x6  80%",
+    "Defense": "3",
+    "M. Defense": "26",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   ",
+      "Condition 2": " If a character uses magic,Cast Mute  on single"
+    }
+  },
+  "81": {
+    "Name": "Medusa  ",
+    "Boss": "false",
+    "Level": "28",
+    "Hp": "430",
+    "Xp": "1250",
+    "Gil": "225",
+    "Attack": "64x5  90%",
+    "Defense": "4",
+    "M. Defense": "14",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If only monster left,Fight",
+      "Condition 3": " If no condition,Use Ray     "
+    }
+  },
+  "82": {
+    "Name": "D.Fossil",
+    "Boss": "false",
+    "Level": "79",
+    "Hp": "10000",
+    "Xp": "15100",
+    "Gil": "8100",
+    "Attack": "132x10  90%",
+    "Defense": "4",
+    "M. Defense": "41",
+    "Speed": "34 to 37",
+    "Attack Element": "Stun",
+    "Resistances": "Dark Poison Blind Mute Pig Mini Frog KO Berserk Sleep Stun Float Curse",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "None",
+    "Race": "Dragon Zombie",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Use Curse   ,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Call ,Use Fire    "
+    }
+  },
+  "83": {
+    "Name": "Tortoise",
+    "Boss": "false",
+    "Level": "28",
+    "Hp": "400",
+    "Xp": "1700",
+    "Gil": "235",
+    "Attack": "66x5  90%",
+    "Defense": "3",
+    "M. Defense": "17",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini",
+    "Weaknesses": "Ice",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "84": {
+    "Name": "Dummy   ",
+    "Boss": "false",
+    "Level": "29",
+    "Hp": "2000",
+    "Xp": "2850",
+    "Gil": "240",
+    "Attack": "132x10  90%",
+    "Defense": "4",
+    "M. Defense": "32",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Charm on single",
+      "Condition 2": " If no condition,Fight,Wait,Cast Charm on single,Wait,Fight"
+    }
+  },
+  "85": {
+    "Name": "Ghost   ",
+    "Boss": "false",
+    "Level": "39",
+    "Hp": "1100",
+    "Xp": "3700",
+    "Gil": "365",
+    "Attack": "100x8  80%",
+    "Defense": "3",
+    "M. Defense": "14",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Poison Blind Petrify KO Calcify 1 Calcify 2 Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "10",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Sleep on single",
+      "Condition 2": " If a character uses Ice magic,Do nothing",
+      "Condition 3": " If no condition,Cast Fire2 on single,Wait,Fight,Wait,Cast Sleep on single"
+    }
+  },
+  "86": {
+    "Name": "Bomb    ",
+    "Boss": "false",
+    "Level": "14",
+    "Hp": "50",
+    "Xp": "370",
+    "Gil": "80",
+    "Attack": "19x2  95%",
+    "Defense": "2",
+    "M. Defense": "15",
+    "Speed": "3 to 6",
+    "Attack Element": "None",
+    "Resistances": "Poison Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Explode "
+    }
+  },
+  "87": {
+    "Name": "GrayBomb",
+    "Boss": "false",
+    "Level": "14",
+    "Hp": "100",
+    "Xp": "450",
+    "Gil": "105",
+    "Attack": "34x3  85%",
+    "Defense": "3",
+    "M. Defense": "0",
+    "Speed": "7 to 10",
+    "Attack Element": "None",
+    "Resistances": "Poison Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Explode "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fire magic,Use Explode "
+    }
+  },
+  "88": {
+    "Name": "Chimera ",
+    "Boss": "false",
+    "Level": "28",
+    "Hp": "700",
+    "Xp": "2300",
+    "Gil": "230",
+    "Attack": "80x6  90%",
+    "Defense": "3",
+    "M. Defense": "18",
+    "Speed": "20 to 23",
+    "Attack Element": "None",
+    "Resistances": "Fire Ice Bolt Absorb Pig Mini Frog KO Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If only monster left,Use Blaze   ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "89": {
+    "Name": "Carapace",
+    "Boss": "false",
+    "Level": "25",
+    "Hp": "700",
+    "Xp": "1350",
+    "Gil": "230",
+    "Attack": "60x5  80%",
+    "Defense": "3",
+    "M. Defense": "11",
+    "Speed": "18 to 21",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Pig Mini",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "90": {
+    "Name": "Ironback",
+    "Boss": "false",
+    "Level": "29",
+    "Hp": "100",
+    "Xp": "1100",
+    "Gil": "235",
+    "Attack": "74x6  70%",
+    "Defense": "4",
+    "M. Defense": "15",
+    "Speed": "24 to 27",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "91": {
+    "Name": "FlameDog",
+    "Boss": "false",
+    "Level": "29",
+    "Hp": "1221",
+    "Xp": "1720",
+    "Gil": "245",
+    "Attack": "66x5  90%",
+    "Defense": "3",
+    "M. Defense": "4",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Mini Frog",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target all monsters,Use Fire    ",
+      "Condition 2": " If formation index is 452,Use Fire    ,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight",
+      "Condition 3": " If only monster left,Use Fire    ",
+      "Condition 4": " If no condition,Fight"
+    }
+  },
+  "92": {
+    "Name": "Gorgon  ",
+    "Boss": "false",
+    "Level": "32",
+    "Hp": "2000",
+    "Xp": "3050",
+    "Gil": "250",
+    "Attack": "108x8  99%",
+    "Defense": "4",
+    "M. Defense": "40",
+    "Speed": "31 to 34",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If only monster left,Use Ray     ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "93": {
+    "Name": "Stoneman",
+    "Boss": "false",
+    "Level": "32",
+    "Hp": "2000",
+    "Xp": "2950",
+    "Gil": "240",
+    "Attack": "84x6  90%",
+    "Defense": "2",
+    "M. Defense": "254",
+    "Speed": "24 to 27",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Mini Frog Petrify KO",
+    "Weaknesses": "Ice Immune",
+    "SpellPower": "None",
+    "Race": "Giant",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "94": {
+    "Name": "Lilith  ",
+    "Boss": "false",
+    "Level": "33",
+    "Hp": "320",
+    "Xp": "2750",
+    "Gil": "365",
+    "Attack": "46x3  99%",
+    "Defense": "3",
+    "M. Defense": "13",
+    "Speed": "7 to 10",
+    "Attack Element": "None",
+    "Resistances": "KO Sleep Stun",
+    "Weaknesses": "Fire Immune",
+    "SpellPower": "None",
+    "Race": "Reptile Zombie",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Use Charm   ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Use Slap    "
+    }
+  },
+  "95": {
+    "Name": "Q.Lamia ",
+    "Boss": "false",
+    "Level": "34",
+    "Hp": "1100",
+    "Xp": "2900",
+    "Gil": "250",
+    "Attack": "74x6  70%",
+    "Defense": "4",
+    "M. Defense": "31",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Charm   ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Fight",
+      "Condition 2": " If a character uses magic,Use Charm   "
+    }
+  },
+  "96": {
+    "Name": "TinyToad",
+    "Boss": "false",
+    "Level": "43",
+    "Hp": "400",
+    "Xp": "1850",
+    "Gil": "335",
+    "Attack": "19x1  75%",
+    "Defense": "0",
+    "M. Defense": "37",
+    "Speed": "13 to 16",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Ice",
+    "SpellPower": "47",
+    "Race": "Reptile Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Cast Toad  on group",
+      "Condition 2": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 26 uses magic,Cast Toad  on single"
+    }
+  },
+  "97": {
+    "Name": "HugeCell",
+    "Boss": "false",
+    "Level": "26",
+    "Hp": "555",
+    "Xp": "1510",
+    "Gil": "255",
+    "Attack": "60x5  80%",
+    "Defense": "4",
+    "M. Defense": "22",
+    "Speed": "19 to 22",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target self,Use Retreat ",
+      "Condition 2": " If no condition,Do nothing,Wait,Do nothing,Wait,Fight,Wait,Use Retreat "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Use Remedy  "
+    }
+  },
+  "98": {
+    "Name": "Roc     ",
+    "Boss": "false",
+    "Level": "27",
+    "Hp": "999",
+    "Xp": "1410",
+    "Gil": "150",
+    "Attack": "66x5  90%",
+    "Defense": "0",
+    "M. Defense": "9",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Start a chain,Fight,Chain into,Fight,End chain"
+    }
+  },
+  "99": {
+    "Name": "Sorcerer",
+    "Boss": "false",
+    "Level": "34",
+    "Hp": "1000",
+    "Xp": "2370",
+    "Gil": "275",
+    "Attack": "82x6  90%",
+    "Defense": "4",
+    "M. Defense": "22",
+    "Speed": "25 to 28",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "50",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Drain on single",
+      "Condition 2": " If only monster left,Use Call    ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "100": {
+    "Name": "Mad Ogre",
+    "Boss": "false",
+    "Level": "32",
+    "Hp": "1700",
+    "Xp": "2370",
+    "Gil": "270",
+    "Attack": "82x6  90%",
+    "Defense": "4",
+    "M. Defense": "254",
+    "Speed": "28 to 31",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "53",
+    "Race": "Giant Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "101": {
+    "Name": "EvilDoll",
+    "Boss": "false",
+    "Level": "30",
+    "Hp": "300",
+    "Xp": "1420",
+    "Gil": "270",
+    "Attack": "64x5  90%",
+    "Defense": "3",
+    "M. Defense": "13",
+    "Speed": "22 to 25",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Cast Wall  on single",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fire magic,Cast Fire2 on single",
+      "Condition 2": " If a character uses Ice magic,Cast Ice-2 on single",
+      "Condition 3": " If a character uses Bolt magic,Cast Lit-2 on single"
+    }
+  },
+  "102": {
+    "Name": "GiantBat",
+    "Boss": "false",
+    "Level": "31",
+    "Hp": "399",
+    "Xp": "1280",
+    "Gil": "365",
+    "Attack": "56x5  70%",
+    "Defense": "3",
+    "M. Defense": "16",
+    "Speed": "28 to 31",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb Pig Mini Frog",
+    "Weaknesses": "Fire Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Vampire ",
+      "Condition 2": " If no condition,Use Vampire "
+    }
+  },
+  "103": {
+    "Name": "Arachne ",
+    "Boss": "false",
+    "Level": "53",
+    "Hp": "3500",
+    "Xp": "4400",
+    "Gil": "585",
+    "Attack": "102x8  80%",
+    "Defense": "3",
+    "M. Defense": "18",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Ice Air Immune",
+    "SpellPower": "10",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target all monsters,Use Quake   ",
+      "Condition 2": " If no condition,Use Quake   "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Fight"
+    }
+  },
+  "104": {
+    "Name": "FlameMan",
+    "Boss": "false",
+    "Level": "31",
+    "Hp": "579",
+    "Xp": "1720",
+    "Gil": "300",
+    "Attack": "72x6  70%",
+    "Defense": "4",
+    "M. Defense": "7",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb",
+    "Weaknesses": "Ice",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "105": {
+    "Name": "Beamer  ",
+    "Boss": "false",
+    "Level": "50",
+    "Hp": "1800",
+    "Xp": "3250",
+    "Gil": "890",
+    "Attack": "88x7  80%",
+    "Defense": "4",
+    "M. Defense": "41",
+    "Speed": "28 to 31",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If a character uses Bolt magic,Target random monster,Use Beam    ",
+      "Condition 2": " If no condition,Use Beam    "
+    }
+  },
+  "106": {
+    "Name": "Balloon ",
+    "Boss": "false",
+    "Level": "33",
+    "Hp": "600",
+    "Xp": "2480",
+    "Gil": "315",
+    "Attack": "66x5  90%",
+    "Defense": "3",
+    "M. Defense": "19",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "Poison Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Explode "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Ice magic,Use Explode "
+    }
+  },
+  "107": {
+    "Name": "Grenade ",
+    "Boss": "false",
+    "Level": "39",
+    "Hp": "820",
+    "Xp": "2650",
+    "Gil": "630",
+    "Attack": "108x8  99%",
+    "Defense": "4",
+    "M. Defense": "37",
+    "Speed": "28 to 31",
+    "Attack Element": "None",
+    "Resistances": "Poison Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Bolt magic,Use Reaction",
+      "Condition 2": " If a character uses Fire magic,Use Explode "
+    }
+  },
+  "108": {
+    "Name": "Plague  ",
+    "Boss": "true",
+    "Level": "96",
+    "Hp": "28000",
+    "Xp": "31200",
+    "Gil": "550",
+    "Attack": "146x11  90%",
+    "Defense": "5",
+    "M. Defense": "32",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Charm Sleep Stun",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If unit 152 has Count,Target all characters,Cast Fast  on single",
+      "Condition 2": " If no condition,Target all characters,Use Count   "
+    }
+  },
+  "109": {
+    "Name": "Last Arm",
+    "Boss": "true",
+    "Level": "40",
+    "Hp": "9500",
+    "Xp": "8800",
+    "Gil": "340",
+    "Attack": "128x10  80%",
+    "Defense": "5",
+    "M. Defense": "47",
+    "Speed": "17 to 20",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Use Search  ,Wait,Use Magnet  ,Wait,Use Search  ,Wait,Use Beam    "
+    },
+    "Reaction": {
+      "Condition 1": " If self has  1000 HP or less and takes damage,Use Fission "
+    }
+  },
+  "110": {
+    "Name": "BlackCat",
+    "Boss": "false",
+    "Level": "35",
+    "Hp": "593",
+    "Xp": "2800",
+    "Gil": "345",
+    "Attack": "68x5  99%",
+    "Defense": "3",
+    "M. Defense": "17",
+    "Speed": "22 to 25",
+    "Attack Element": "None",
+    "Resistances": "Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Bluster ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Use Bluster "
+    }
+  },
+  "111": {
+    "Name": "D.Machin",
+    "Boss": "false",
+    "Level": "67",
+    "Hp": "15000",
+    "Xp": "41500",
+    "Gil": "2550",
+    "Attack": "136x10  99%",
+    "Defense": "4",
+    "M. Defense": "38",
+    "Speed": "35 to 38",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Charm Sleep Stun Curse",
+    "Weaknesses": "None",
+    "SpellPower": "56",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Use Explode ",
+      "Condition 2": " If no condition,Use Fire    "
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Fight"
+    }
+  },
+  "112": {
+    "Name": "Talantla",
+    "Boss": "false",
+    "Level": "42",
+    "Hp": "2315",
+    "Xp": "2800",
+    "Gil": "600",
+    "Attack": "110x8  99%",
+    "Defense": "5",
+    "M. Defense": "37",
+    "Speed": "30 to 33",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Air",
+    "SpellPower": "5",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Use Quake   ",
+      "Condition 2": " If no condition,Fight,Wait,Use Quake   "
+    }
+  },
+  "113": {
+    "Name": "Gremlin ",
+    "Boss": "false",
+    "Level": "23",
+    "Hp": "385",
+    "Xp": "1500",
+    "Gil": "275",
+    "Attack": "56x5  70%",
+    "Defense": "2",
+    "M. Defense": "15",
+    "Speed": "19 to 22",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Fire",
+    "SpellPower": "31",
+    "Race": "Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Charm on single",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Charm on single"
+    }
+  },
+  "114": {
+    "Name": "Centpede",
+    "Boss": "false",
+    "Level": "36",
+    "Hp": "600",
+    "Xp": "2800",
+    "Gil": "345",
+    "Attack": "76x6  80%",
+    "Defense": "5",
+    "M. Defense": "29",
+    "Speed": "22 to 25",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "3",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target all monsters,Use Quake   ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage and only monster left,Use Quake   "
+    }
+  },
+  "115": {
+    "Name": "Red Worm",
+    "Boss": "false",
+    "Level": "37",
+    "Hp": "7000",
+    "Xp": "7350",
+    "Gil": "310",
+    "Attack": "126x10  75%",
+    "Defense": "4",
+    "M. Defense": "54",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Sleep",
+    "Weaknesses": "Fire Immune",
+    "SpellPower": "15",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target self,Use Retreat ",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   ",
+      "Condition 2": " If takes damage,Use Vampire "
+    }
+  },
+  "116": {
+    "Name": "Red Eye ",
+    "Boss": "false",
+    "Level": "45",
+    "Hp": "2000",
+    "Xp": "3500",
+    "Gil": "465",
+    "Attack": "100x8  80%",
+    "Defense": "4",
+    "M. Defense": "38",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog Berserk Sleep Stun",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Fatal on single",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Gaze    "
+    }
+  },
+  "117": {
+    "Name": "Crawler ",
+    "Boss": "false",
+    "Level": "43",
+    "Hp": "1555",
+    "Xp": "3900",
+    "Gil": "540",
+    "Attack": "100x8  80%",
+    "Defense": "4",
+    "M. Defense": "24",
+    "Speed": "28 to 31",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Drain on single",
+      "Condition 2": " If all monsters are same type,Fight",
+      "Condition 3": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Psych on single",
+      "Condition 2": " If a character uses Fight,Cast Slow  on single"
+    }
+  },
+  "118": {
+    "Name": "Ice Liz ",
+    "Boss": "false",
+    "Level": "23",
+    "Hp": "400",
+    "Xp": "1500",
+    "Gil": "290",
+    "Attack": "58x5  70%",
+    "Defense": "2",
+    "M. Defense": "14",
+    "Speed": "17 to 20",
+    "Attack Element": "None",
+    "Resistances": "Ice Absorb Pig Mini",
+    "Weaknesses": "Fire Immune",
+    "SpellPower": "2",
+    "Race": "Reptile",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Ice-2 on single",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Use Petrify "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Ice-2 on single"
+    }
+  },
+  "119": {
+    "Name": "RockMoth",
+    "Boss": "false",
+    "Level": "39",
+    "Hp": "850",
+    "Xp": "3200",
+    "Gil": "315",
+    "Attack": "74x6  70%",
+    "Defense": "2",
+    "M. Defense": "18",
+    "Speed": "25 to 28",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Use Powder  "
+    }
+  },
+  "120": {
+    "Name": "Were Bat",
+    "Boss": "false",
+    "Level": "32",
+    "Hp": "800",
+    "Xp": "2050",
+    "Gil": "355",
+    "Attack": "94x7  90%",
+    "Defense": "3",
+    "M. Defense": "25",
+    "Speed": "31 to 34",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb Pig Mini Frog",
+    "Weaknesses": "Fire Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Use Vampire ",
+      "Condition 2": " If no condition,Use Vampire "
+    }
+  },
+  "121": {
+    "Name": "IceBeast",
+    "Boss": "false",
+    "Level": "40",
+    "Hp": "445",
+    "Xp": "1570",
+    "Gil": "280",
+    "Attack": "64x5  90%",
+    "Defense": "3",
+    "M. Defense": "13",
+    "Speed": "18 to 21",
+    "Attack Element": "None",
+    "Resistances": "Ice Absorb Mini Frog",
+    "Weaknesses": "Fire",
+    "SpellPower": "3",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target all monsters,Use Blizzard",
+      "Condition 2": " If all monsters are same type,Use Blizzard,Wait,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "122": {
+    "Name": "Conjurer",
+    "Boss": "false",
+    "Level": "48",
+    "Hp": "3000",
+    "Xp": "3700",
+    "Gil": "475",
+    "Attack": "104x8  90%",
+    "Defense": "5",
+    "M. Defense": "18",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "60",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Warp  on single",
+      "Condition 2": " If only monster left,Use Call    ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "123": {
+    "Name": "Witch   ",
+    "Boss": "false",
+    "Level": "26",
+    "Hp": "300",
+    "Xp": "1670",
+    "Gil": "330",
+    "Attack": "50x4  90%",
+    "Defense": "2",
+    "M. Defense": "12",
+    "Speed": "19 to 22",
+    "Attack Element": "None",
+    "Resistances": "Frog",
+    "Weaknesses": "None",
+    "SpellPower": "46",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Fast  on single",
+      "Condition 2": " If all monsters are same type,Fight",
+      "Condition 3": " If no condition,Cast Slow  on single,Wait,Cast Mute  on single"
+    }
+  },
+  "124": {
+    "Name": "TrapDoor",
+    "Boss": "true",
+    "Level": "58",
+    "Hp": "5000",
+    "Xp": "31100",
+    "Gil": "4500",
+    "Attack": "88x7  80%",
+    "Defense": "3",
+    "M. Defense": "38",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Start a chain,Set condition flag to 1,Do nothing,Chain into,Use Search  ,End chain,Wait,Start a chain,Use Disrupt ,Chain into,Set condition flag to 0,Do nothing,End chain,Wait,Do nothing,Wait,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If self has   700 HP or less and takes damage and condition flag is   0,Next action, show message 139,Use Dummy   "
+    }
+  },
+  "125": {
+    "Name": "ToadLady",
+    "Boss": "false",
+    "Level": "40",
+    "Hp": "2960",
+    "Xp": "3500",
+    "Gil": "600",
+    "Attack": "98x7  99%",
+    "Defense": "3",
+    "M. Defense": "0",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "223",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Cast Size  on single",
+      "Condition 2": " If only monster left,Target self,Cast Toad  on single,Wait,Cast Toad  on single,Wait,Cast Toad  on single,Wait,Target self,Cast Toad  on single,Wait,Use Retreat ",
+      "Condition 3": " If no condition,Target all other monsters,Use Dummy   ,Next action, show message 138"
+    }
+  },
+  "126": {
+    "Name": "DarkTree",
+    "Boss": "false",
+    "Level": "40",
+    "Hp": "1800",
+    "Xp": "5550",
+    "Gil": "525",
+    "Attack": "104x8  90%",
+    "Defense": "3",
+    "M. Defense": "32",
+    "Speed": "30 to 33",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "Fire",
+    "SpellPower": "74",
+    "Race": "Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Bersk on single",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Cast Bersk on single"
+    }
+  },
+  "127": {
+    "Name": "Mantcore",
+    "Boss": "false",
+    "Level": "44",
+    "Hp": "2000",
+    "Xp": "35000",
+    "Gil": "1200",
+    "Attack": "98x7  99%",
+    "Defense": "3",
+    "M. Defense": "38",
+    "Speed": "27 to 30",
+    "Attack Element": "None",
+    "Resistances": "Fire Ice Bolt Absorb Pig Mini Frog KO Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Use Blaze   ",
+      "Condition 2": " If no condition,Use Blaze   ,Wait,Fight,Wait,Fight"
+    }
+  },
+  "128": {
+    "Name": "MoonCell",
+    "Boss": "false",
+    "Level": "48",
+    "Hp": "980",
+    "Xp": "3300",
+    "Gil": "1100",
+    "Attack": "102x8  80%",
+    "Defense": "5",
+    "M. Defense": "43",
+    "Speed": "34 to 37",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target self,Use Retreat ",
+      "Condition 2": " If a character uses magic,Fight",
+      "Condition 3": " If no condition,Do nothing,Wait,Do nothing,Wait,Fight,Wait,Use Retreat "
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Use Remedy  "
+    }
+  },
+  "129": {
+    "Name": "Breath  ",
+    "Boss": "true",
+    "Level": "98",
+    "Hp": "31300",
+    "Xp": "60000",
+    "Gil": "50000",
+    "Attack": "154x12  75%",
+    "Defense": "0",
+    "M. Defense": "254",
+    "Speed": "69 to 69",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog KO Sleep",
+    "Weaknesses": "None",
+    "SpellPower": "99",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Next action, show message 150,Cast Peep  on single"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Use Blast   "
+    }
+  },
+  "130": {
+    "Name": "Tofu    ",
+    "Boss": "false",
+    "Level": "30",
+    "Hp": "102",
+    "Xp": "1060",
+    "Gil": "385",
+    "Attack": "66x5  90%",
+    "Defense": "254",
+    "M. Defense": "12",
+    "Speed": "22 to 25",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "Ice",
+    "SpellPower": "None",
+    "Race": "Slime",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "131": {
+    "Name": "Pudding ",
+    "Boss": "false",
+    "Level": "50",
+    "Hp": "1050",
+    "Xp": "3060",
+    "Gil": "1300",
+    "Attack": "116x9  85%",
+    "Defense": "254",
+    "M. Defense": "0",
+    "Speed": "34 to 37",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Slime",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "132": {
+    "Name": "Mind    ",
+    "Boss": "true",
+    "Level": "98",
+    "Hp": "12300",
+    "Xp": "65000",
+    "Gil": "50000",
+    "Attack": "130x10  85%",
+    "Defense": "254",
+    "M. Defense": "0",
+    "Speed": "69 to 69",
+    "Attack Element": "None",
+    "Resistances": "Blind Pig Mini Frog KO Sleep",
+    "Weaknesses": "None",
+    "SpellPower": "99",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Fight,Wait,Target all characters,Cast Charm on single,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Target self,Cast  Armor on single",
+      "Condition 2": " If a character uses Holy magic,Target self,Cast  Shell on single"
+    }
+  },
+  "133": {
+    "Name": "Ironman ",
+    "Boss": "false",
+    "Level": "36",
+    "Hp": "2500",
+    "Xp": "3700",
+    "Gil": "385",
+    "Attack": "80x6  90%",
+    "Defense": "3",
+    "M. Defense": "20",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Mini Frog KO",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Giant",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "134": {
+    "Name": "Green D.",
+    "Boss": "false",
+    "Level": "37",
+    "Hp": "2200",
+    "Xp": "4800",
+    "Gil": "370",
+    "Attack": "88x7  80%",
+    "Defense": "3",
+    "M. Defense": "18",
+    "Speed": "24 to 27",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog Sleep",
+    "Weaknesses": "None",
+    "SpellPower": "3",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Start a chain,Fight,Chain into,Fight,End chain",
+      "Condition 3": " If no condition,Fight,Wait,Use Thunder "
+    },
+    "Reaction": {
+      "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   "
+    }
+  },
+  "135": {
+    "Name": "PinkPuff",
+    "Boss": "false",
+    "Level": "96",
+    "Hp": "10000",
+    "Xp": "10000",
+    "Gil": "55555",
+    "Attack": "174x13  99%",
+    "Defense": "5",
+    "M. Defense": "22",
+    "Speed": "34 to 37",
+    "Attack Element": "None",
+    "Resistances": "Charm",
+    "Weaknesses": "None",
+    "SpellPower": "127",
+    "Race": "Slime",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Use Dancing ,Change music to Black Chocobo,Wait,Fight,Wait,Fight,Wait,Use Dancing ,Change music to Yellow Chocobo,Wait,Fight,Wait,Fight,Wait,Use Dancing ,Change music to Fat Chocobo,Wait,Fight,Wait,Fight,Wait,Use Dancing ,Change music to Mysidia,Wait,Fight,Wait,Use Charm   ",
+      "Condition 2": " If no condition,Show message 154,Set condition flag to 1,Do nothing"
+    }
+  },
+  "136": {
+    "Name": "Alert   ",
+    "Boss": "false",
+    "Level": "16",
+    "Hp": "1425",
+    "Xp": "2100",
+    "Gil": "380",
+    "Attack": "112x9  75%",
+    "Defense": "0",
+    "M. Defense": "254",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If only monster left,Next action, show message 9,Do nothing",
+      "Condition 2": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage and only monster left,Use Alert   ",
+      "Condition 2": " If takes damage,Use Beam    "
+    }
+  },
+  "137": {
+    "Name": "Machine ",
+    "Boss": "false",
+    "Level": "60",
+    "Hp": "3600",
+    "Xp": "8200",
+    "Gil": "985",
+    "Attack": "118x9  90%",
+    "Defense": "3",
+    "M. Defense": "40",
+    "Speed": "36 to 39",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If a character uses Bolt magic,Target random monster,Fight",
+      "Condition 2": " If no condition,Fight"
+    }
+  },
+  "138": {
+    "Name": "MacGiant",
+    "Boss": "false",
+    "Level": "60",
+    "Hp": "8500",
+    "Xp": "31000",
+    "Gil": "1500",
+    "Attack": "126x10  75%",
+    "Defense": "3",
+    "M. Defense": "38",
+    "Speed": "33 to 36",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Charm Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot Giant",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Bolt magic,Use Magnet  "
+    }
+  },
+  "139": {
+    "Name": "Kary    ",
+    "Boss": "false",
+    "Level": "61",
+    "Hp": "2700",
+    "Xp": "13100",
+    "Gil": "3500",
+    "Attack": "116x9  85%",
+    "Defense": "3",
+    "M. Defense": "254",
+    "Speed": "35 to 38",
+    "Attack Element": "None",
+    "Resistances": "Pig Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster or character,Use Hug     ",
+      "Condition 2": " If all monsters are same type,Fight,Wait,Use Hug     ,Wait,Use Retreat ",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "140": {
+    "Name": "Molbol  ",
+    "Boss": "false",
+    "Level": "34",
+    "Hp": "1999",
+    "Xp": "11000",
+    "Gil": "460",
+    "Attack": "86x6  99%",
+    "Defense": "3",
+    "M. Defense": "23",
+    "Speed": "21 to 24",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini KO",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Fight",
+      "Condition 2": " If no condition,Use Breath  ,Wait,Fight,Wait,Use Digest  ,Wait,Fight"
+    }
+  },
+  "141": {
+    "Name": "Ging-Ryu",
+    "Boss": "false",
+    "Level": "97",
+    "Hp": "7500",
+    "Xp": "25000",
+    "Gil": "19000",
+    "Attack": "124x9  99%",
+    "Defense": "4",
+    "M. Defense": "44",
+    "Speed": "33 to 36",
+    "Attack Element": "None",
+    "Resistances": "Blind Mute Pig Frog Petrify KO Calcify 1 Calcify 2 Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "95",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster or character,Use Entangle,Wait,Target random monster or character,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Use Blaze   "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Call ,Use Tornado "
+    }
+  },
+  "142": {
+    "Name": "Yellow D",
+    "Boss": "false",
+    "Level": "40",
+    "Hp": "1800",
+    "Xp": "34000",
+    "Gil": "1500",
+    "Attack": "102x8  80%",
+    "Defense": "4",
+    "M. Defense": "21",
+    "Speed": "28 to 31",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb Pig Mini Frog Sleep",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Start a chain,Fight,Chain into,Fight,End chain",
+      "Condition 3": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If self has Egg and takes damage,Target self,Use Hatch   ",
+      "Condition 2": " If takes damage,Use Thunder "
+    }
+  },
+  "143": {
+    "Name": "Fiend   ",
+    "Boss": "false",
+    "Level": "45",
+    "Hp": "2980",
+    "Xp": "6400",
+    "Gil": "650",
+    "Attack": "100x8  80%",
+    "Defense": "5",
+    "M. Defense": "43",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "79",
+    "Race": "Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Charm on single",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Cast Charm on single"
+    }
+  },
+  "144": {
+    "Name": "Juclyote",
+    "Boss": "false",
+    "Level": "54",
+    "Hp": "1700",
+    "Xp": "7200",
+    "Gil": "1560",
+    "Attack": "102x8  80%",
+    "Defense": "3",
+    "M. Defense": "44",
+    "Speed": "32 to 35",
+    "Attack Element": "Poison",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "145": {
+    "Name": "EvilMask",
+    "Boss": "true",
+    "Level": "99",
+    "Hp": "25500",
+    "Xp": "50000",
+    "Gil": "65000",
+    "Attack": "128x10  80%",
+    "Defense": "3",
+    "M. Defense": "19",
+    "Speed": "40 to 43",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "14",
+    "Race": "Robot",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Target self,Cast White on single,Wait,Target self,Cast Nuke  on single,Wait,Target self,Cast Virus on single,Wait,Target self,Cast White on single,Wait,Target all characters,Cast Cure3 on single,Wait,Target random other monster or character,Cast Fast  on single,Wait,Target self,Cast Wall  on single",
+      "Condition 2": " If no condition,Target self,Cast Wall  on single,Wait,Target all characters,Cast Wall  on single,Wait,Set condition flag to 1,Do nothing"
+    }
+  },
+  "146": {
+    "Name": "Horseman",
+    "Boss": "false",
+    "Level": "61",
+    "Hp": "3000",
+    "Xp": "9900",
+    "Gil": "1220",
+    "Attack": "126x10  75%",
+    "Defense": "0",
+    "M. Defense": "43",
+    "Speed": "40 to 43",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "147": {
+    "Name": "RedGiant",
+    "Boss": "false",
+    "Level": "97",
+    "Hp": "11800",
+    "Xp": "18900",
+    "Gil": "7000",
+    "Attack": "122x9  99%",
+    "Defense": "3",
+    "M. Defense": "39",
+    "Speed": "34 to 37",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "57",
+    "Race": "Giant",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Target all characters,Use Emission"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Call ,Use Explode ",
+      "Condition 2": " If a character uses magic,Use Beam    "
+    }
+  },
+  "148": {
+    "Name": "Staleman",
+    "Boss": "false",
+    "Level": "32",
+    "Hp": "2100",
+    "Xp": "2100",
+    "Gil": "445",
+    "Attack": "86x6  99%",
+    "Defense": "4",
+    "M. Defense": "21",
+    "Speed": "20 to 23",
+    "Attack Element": "Sleep",
+    "Resistances": "Poison Blind Mute Mini Frog KO",
+    "Weaknesses": "Ice",
+    "SpellPower": "None",
+    "Race": "Giant",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "149": {
+    "Name": "FatalEye",
+    "Boss": "true",
+    "Level": "99",
+    "Hp": "25000",
+    "Xp": "40000",
+    "Gil": "65200",
+    "Attack": "144x11  85%",
+    "Defense": "5",
+    "M. Defense": "10",
+    "Speed": "29 to 32",
+    "Attack Element": "None",
+    "Resistances": "Pig Mini Frog Berserk Sleep Stun",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If unit 152 has Count,Cast Fast  on single,Wait,Cast Bersk on single,Wait,Cast Charm on single",
+      "Condition 2": " If self has Charm,Fight",
+      "Condition 3": " If no condition,Use Count   "
+    }
+  },
+  "150": {
+    "Name": "D. Lunar",
+    "Boss": "true",
+    "Level": "99",
+    "Hp": "21000",
+    "Xp": "50000",
+    "Gil": "0",
+    "Attack": "144x11  85%",
+    "Defense": "4",
+    "M. Defense": "54",
+    "Speed": "30 to 30",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Fire",
+    "SpellPower": "36",
+    "Race": "Dragon Zombie",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Target random other monster,Cast Virus on single",
+      "Condition 2": " If no condition,Fight,Wait,Use Fire    ,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Target all characters,Use Breath  "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Call ,Target self,Use Remedy  ",
+      "Condition 2": " If condition flag is   0 and a character uses Fight,Target all monsters,Cast Wall  on single,Set condition flag to 1",
+      "Condition 3": " If only monster left,Use Fire    "
+    }
+  },
+  "151": {
+    "Name": "Searcher",
+    "Boss": "false",
+    "Level": "30",
+    "Hp": "5500",
+    "Xp": "18200",
+    "Gil": "900",
+    "Attack": "138x10  99%",
+    "Defense": "4",
+    "M. Defense": "52",
+    "Speed": "23 to 26",
+    "Attack Element": "None",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Robot",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If only monster left,Next action, show message 9,Do nothing",
+      "Condition 2": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage and only monster left,Use Alert   ",
+      "Condition 2": " If takes damage,Use Beam    "
+    }
+  },
+  "152": {
+    "Name": "Warlock ",
+    "Boss": "false",
+    "Level": "71",
+    "Hp": "4250",
+    "Xp": "17300",
+    "Gil": "2400",
+    "Attack": "80x8  70%",
+    "Defense": "5",
+    "M. Defense": "29",
+    "Speed": "34 to 37",
+    "Attack Element": "None",
+    "Resistances": "Frog",
+    "Weaknesses": "None",
+    "SpellPower": "44",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster,Cast Stone on single",
+      "Condition 2": " If only monster left,Fight,Wait,Cast Weak  on single",
+      "Condition 3": " If no condition,Cast Fire2 on single,Wait,Cast Psych on single,Wait,Cast Drain on single,Wait,Cast Lit-2 on single,Wait,Cast Ice-2 on single"
+    }
+  },
+  "153": {
+    "Name": "Wyvern  ",
+    "Boss": "true",
+    "Level": "99",
+    "Hp": "25000",
+    "Xp": "64300",
+    "Gil": "0",
+    "Attack": "160x12  90%",
+    "Defense": "5",
+    "M. Defense": "52",
+    "Speed": "43 to 46",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "8",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Reflect,Set spell power to 12,Target self,Cast Nuke  on single,Set spell power to 8,Wait,Set spell power to 12,Target self,Cast Nuke  on single,Set spell power to 8,Wait,Set spell power to 12,Target self,Cast Nuke  on single,Set spell power to 8,Wait,Do nothing",
+      "Condition 2": " If condition flag is   1,Target self,Use Remedy  ,Wait,Target self,Cast Wall  on single",
+      "Condition 3": " If no condition,Use MegaNuke,Wait,Do nothing,Wait,Do nothing,Wait,Set condition flag to 1,Target self,Cast Wall  on single"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Call ,Set spell power to 6,Use MegaNuke"
+    }
+  },
+  "154": {
+    "Name": "Procyote",
+    "Boss": "false",
+    "Level": "61",
+    "Hp": "2200",
+    "Xp": "8100",
+    "Gil": "1850",
+    "Attack": "106x8  90%",
+    "Defense": "5",
+    "M. Defense": "31",
+    "Speed": "34 to 37",
+    "Attack Element": "Poison",
+    "Resistances": "Poison Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "155": {
+    "Name": "Ogopogo ",
+    "Boss": "true",
+    "Level": "62",
+    "Hp": "37000",
+    "Xp": "61100",
+    "Gil": "0",
+    "Attack": "150x11  99%",
+    "Defense": "4",
+    "M. Defense": "40",
+    "Speed": "38 to 38",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "127",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Start a chain,Use Big Wave,Chain into,Use Big Wave,End chain,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Use Big Wave,Wait,Fight,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Bolt magic,Use Weak    ",
+      "Condition 2": " If a character uses Call ,Use Blaze   ",
+      "Condition 3": " If a character uses magic,Use Blaze   "
+    }
+  },
+  "156": {
+    "Name": "Blue D. ",
+    "Boss": "true",
+    "Level": "98",
+    "Hp": "13200",
+    "Xp": "36000",
+    "Gil": "40200",
+    "Attack": "144x11  85%",
+    "Defense": "4",
+    "M. Defense": "41",
+    "Speed": "36 to 39",
+    "Attack Element": "None",
+    "Resistances": "Fire Ice Bolt Dark Holy Air Absorb Blind Mute Pig Mini Frog Petrify Charm Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Target random monster or character,Fight",
+      "Condition 2": " If no condition,Fight,Wait,Use Blizzard,Wait,Fight,Wait,Fight,Wait,Use Blizzard"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fire magic,Use Blizzard"
+    }
+  },
+  "157": {
+    "Name": "King-Ryu",
+    "Boss": "false",
+    "Level": "97",
+    "Hp": "8200",
+    "Xp": "30000",
+    "Gil": "23000",
+    "Attack": "128x10  80%",
+    "Defense": "54",
+    "M. Defense": "39",
+    "Speed": "34 to 37",
+    "Attack Element": "None",
+    "Resistances": "Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Charm Stun Float Curse",
+    "Weaknesses": "None",
+    "SpellPower": "30",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If self has Charm,Use Thunder ",
+      "Condition 2": " If no condition,Fight,Wait,Use Blitz   ,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Use Entangle"
+    }
+  },
+  "158": {
+    "Name": "Clapper ",
+    "Boss": "false",
+    "Level": "54",
+    "Hp": "7000",
+    "Xp": "8000",
+    "Gil": "900",
+    "Attack": "124x9  99%",
+    "Defense": "4",
+    "M. Defense": "54",
+    "Speed": "32 to 35",
+    "Attack Element": "None",
+    "Resistances": "Bolt Absorb Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Charm Sleep Stun Float Curse",
+    "Weaknesses": "Air",
+    "SpellPower": "None",
+    "Race": "Dragon",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Use Blitz   "
+    }
+  },
+  "159": {
+    "Name": "Pale Dim",
+    "Boss": "true",
+    "Level": "98",
+    "Hp": "27300",
+    "Xp": "59000",
+    "Gil": "0",
+    "Attack": "144x11  85%",
+    "Defense": "5",
+    "M. Defense": "48",
+    "Speed": "40 to 43",
+    "Attack Element": "None",
+    "Resistances": "Fire Ice Bolt Absorb Poison Blind Mute Pig Mini Frog Petrify KO Sleep Stun",
+    "Weaknesses": "None",
+    "SpellPower": "31",
+    "Race": "Dragon",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Call ,Use Quake   ",
+      "Condition 2": " If a character uses Fight,Cast Slow  on single",
+      "Condition 3": " If a character uses Fire magic,Use Glare   ",
+      "Condition 4": " If a character uses Ice magic,Use Blizzard",
+      "Condition 5": " If a character uses Bolt magic,Use Blitz   "
+    }
+  },
+  "160": {
+    "Name": "Red D.  ",
+    "Boss": "true",
+    "Level": "99",
+    "Hp": "15000",
+    "Xp": "51800",
+    "Gil": "65000",
+    "Attack": "160x12  90%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "41 to 44",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Blind Mute Pig Mini Frog Petrify Charm Stun",
+    "Weaknesses": "Ice",
+    "SpellPower": "79",
+    "Race": "Dragon",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Charm,Target self,Cast Fire3 on single,Wait,Target self,Fight",
+      "Condition 2": " If only monster left,Fight,Wait,Use Heat Ray,Wait,Fight",
+      "Condition 3": " If no condition,Fight,Wait,Fight,Wait,Start a chain,Fight,Chain into,Fight,End chain"
+    }
+  },
+  "161": {
+    "Name": "Behemoth",
+    "Boss": "true",
+    "Level": "99",
+    "Hp": "16000",
+    "Xp": "58700",
+    "Gil": "65000",
+    "Attack": "154x12  75%",
+    "Defense": "4",
+    "M. Defense": "254",
+    "Speed": "1 to 3",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "63",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If only monster left and a character uses Holy magic,Use Storm   ",
+      "Condition 2": " If takes damage,Fight",
+      "Condition 3": " If a character uses magic,Fight"
+    }
+  },
+  "162": {
+    "Name": "D.Mist  ",
+    "Boss": "true",
+    "Level": "10",
+    "Hp": "465",
+    "Xp": "700",
+    "Gil": "200",
+    "Attack": "16x2  90%",
+    "Defense": "5",
+    "M. Defense": "31",
+    "Speed": "5 to 5",
+    "Attack Element": "None",
+    "Resistances": "Holy Absorb",
+    "Weaknesses": "None",
+    "SpellPower": "10",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Start a chain,Show message 1,Do nothing,Chain into,Set sprite to 1,Use Dummy   ,Chain into,Set condition flag to 1,Do nothing,End chain,Wait,Do nothing,Wait,Do nothing,Wait,Do nothing,Wait,Start a chain,Show message 2,Do nothing,Chain into,Set sprite to 0,Use Dummy   ,Chain into,Set condition flag to 0,Do nothing,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight and condition flag is   1,Use ColdMist,Show message 3,Show message 4,Show message 5"
+    }
+  },
+  "163": {
+    "Name": "Octomamm",
+    "Boss": "true",
+    "Level": "10",
+    "Hp": "2350",
+    "Xp": "1200",
+    "Gil": "500",
+    "Attack": "22x2  99%",
+    "Defense": "0",
+    "M. Defense": "25",
+    "Speed": "31 to 31",
+    "Attack Element": "None",
+    "Resistances": "Holy Absorb",
+    "Weaknesses": "Bolt Dark",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage and condition flag is   2,Set sprite to 5,Modify speed by 9,Set condition flag to current flag +1,Do nothing",
+      "Condition 2": " If takes damage and condition flag is   4,Set sprite to 6,Modify speed by 8,Set condition flag to current flag +1,Do nothing",
+      "Condition 3": " If takes damage and condition flag is   6,Set sprite to 7,Modify speed by 7,Set condition flag to current flag +1,Do nothing",
+      "Condition 4": " If takes damage and condition flag is   8,Set sprite to 8,Modify speed by 6,Set condition flag to current flag +1,Do nothing",
+      "Condition 5": " If takes damage and condition flag is  10,Set sprite to 9,Modify speed by 5,Set condition flag to current flag +1,Do nothing",
+      "Condition 6": " If takes damage and condition flag is  12,Set sprite to 10,Modify speed by 4,Set condition flag to current flag +1,Show message 73,Show message 74,Do nothing",
+      "Condition 7": " If takes damage and condition flag is  14,Set sprite to 11,Modify speed by 3,Set condition flag to current flag +1,Do nothing",
+      "Condition 8": " If takes damage,Set condition flag to current flag +1,Do nothing"
+    }
+  },
+  "164": {
+    "Name": "Antlion ",
+    "Boss": "true",
+    "Level": "2",
+    "Hp": "1000",
+    "Xp": "1500",
+    "Gil": "800",
+    "Attack": "11x2  85%",
+    "Defense": "2",
+    "M. Defense": "8",
+    "Speed": "5 to 5",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Use Counter "
+    }
+  },
+  "165": {
+    "Name": "MomBomb ",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "10800",
+    "Xp": "1900",
+    "Gil": "1200",
+    "Attack": "30x3  80%",
+    "Defense": "0",
+    "M. Defense": "9",
+    "Speed": "7 to 7",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Dark",
+    "SpellPower": "5",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Next action, show message 64,Do nothing,Wait,Start a chain,Use Explode ,Chain into,Use Dummy   ,End chain",
+      "Condition 2": " If self has 10000 HP or less,Set sprite to 13,Set condition flag to 1,Do nothing",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "166": {
+    "Name": "Milon   ",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "3100",
+    "Xp": "3200",
+    "Gil": "2500",
+    "Attack": "19x1  75%",
+    "Defense": "2",
+    "M. Defense": "0",
+    "Speed": "8 to 8",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "14",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If only monster left,Cast Lit-1 on single,Wait,Fight",
+      "Condition 2": " If no condition,Do nothing,Wait,Next action, show message 8,Target all other monsters,Use Dummy   ,Wait,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If self has  1000 HP or less,Show message 7,Target self,Use Vanish  ",
+      "Condition 2": " If takes damage,Cast Lit-1 on single"
+    }
+  },
+  "167": {
+    "Name": "Milon Z.",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "3000",
+    "Xp": "4000",
+    "Gil": "3000",
+    "Attack": "44x3  99%",
+    "Defense": "1",
+    "M. Defense": "22",
+    "Speed": "9 to 9",
+    "Attack Element": "Poison",
+    "Resistances": "Ice Absorb",
+    "Weaknesses": "Fire Holy Air",
+    "SpellPower": "31",
+    "Race": "Zombie",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Fight",
+      "Condition 2": " If no condition,Show message 21,Show message 36,Set condition flag to 1,Do nothing"
+    }
+  },
+  "168": {
+    "Name": "Baigan  ",
+    "Boss": "true",
+    "Level": "9",
+    "Hp": "3500",
+    "Xp": "4800",
+    "Gil": "3000",
+    "Attack": "52x4  99%",
+    "Defense": "0",
+    "M. Defense": "11",
+    "Speed": "8 to 8",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "9",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If only monster left,Target all KO monsters,Use Recover ",
+      "Condition 2": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Target all other monsters,Cast Fast  on single,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Target self,Cast Wall  on single"
+    }
+  },
+  "169": {
+    "Name": "RightArm",
+    "Boss": "true",
+    "Level": "9",
+    "Hp": "350",
+    "Xp": "10",
+    "Gil": "0",
+    "Attack": "56x5  70%",
+    "Defense": "2",
+    "M. Defense": "0",
+    "Speed": "4 to 4",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "9",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If monster   0 is defeated,Use Explode ",
+      "Condition 2": " If no condition,Fight,Wait,Use Vampire "
+    }
+  },
+  "170": {
+    "Name": "Left Arm",
+    "Boss": "true",
+    "Level": "9",
+    "Hp": "350",
+    "Xp": "10",
+    "Gil": "0",
+    "Attack": "56x5  70%",
+    "Defense": "2",
+    "M. Defense": "0",
+    "Speed": "5 to 5",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "9",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If monster   0 is defeated,Use Explode ",
+      "Condition 2": " If no condition,Fight,Wait,Use Entangle,Wait,Fight"
+    }
+  },
+  "171": {
+    "Name": "Kainazzo",
+    "Boss": "true",
+    "Level": "16",
+    "Hp": "4000",
+    "Xp": "5500",
+    "Gil": "4000",
+    "Attack": "44x3  99%",
+    "Defense": "2",
+    "M. Defense": "48",
+    "Speed": "15 to 15",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Ice",
+    "SpellPower": "29",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   2,Target self,Use Remedy  ,Wait,Change defense to 123: 70% 3 x2,Set condition flag to 1,Do nothing",
+      "Condition 2": " If condition flag is   1,Start a chain,Set reaction to 1,Do nothing,Chain into,Show message 71,Do nothing,Chain into,Set sprite to 19,Do nothing,Chain into,Set weakness to Bolt,Do nothing,End chain,Wait,Use Wave    ,Wait,Target self,Cast Fast  on single",
+      "Condition 3": " If no condition,Fight,Set condition flag to 1"
+    },
+    "Reaction": {
+      "Condition 1": " If self has   700 HP or less and takes damage,Start a chain,Set condition flag to 2,Do nothing,Chain into,Set reaction to 0,Do nothing,Chain into,Set sprite to 20,Do nothing,Chain into,Set weakness to Ice,Do nothing,Chain into,Show message 72,Do nothing,End chain",
+      "Condition 2": " If reaction  flag is   1 and a character uses Bolt magic,Start a chain,Set condition flag to 0,Do nothing,Chain into,Set reaction to 0,Do nothing,Chain into,Set sprite to 18,Do nothing,Chain into,Set weakness to Ice,Do nothing,Chain into,Show message 117,Do nothing,End chain"
+    }
+  },
+  "172": {
+    "Name": "Dark Elf",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "65000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "254x99  99%",
+    "Defense": "0",
+    "M. Defense": "254",
+    "Speed": "31 to 31",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "57",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If formation index is 253,Show message 45,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Cast Quake on group",
+      "Condition 2": " If no condition,Do nothing,Wait,Do nothing,Wait,Do nothing,Wait,Show message 10,Start a chain,Cast Fire2 on group,Chain into,Cast Lit-2 on group,Chain into,Cast Ice-2 on group,End chain,Wait,Cast Weak  on group,Wait,Show message 11,Show message 12,Show message 13,Use Dummy   "
+    }
+  },
+  "173": {
+    "Name": "Dark Elf",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "22000",
+    "Xp": "1000",
+    "Gil": "4000",
+    "Attack": "18x1  75%",
+    "Defense": "0",
+    "M. Defense": "254",
+    "Speed": "9 to 9",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Holy Immune",
+    "SpellPower": "1",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Start a chain,Cast Fire2 on group,Chain into,Cast Lit-2 on group,Chain into,Cast Ice-2 on group,End chain,Wait,Cast Weak  on single,Wait,Use Whisper "
+    },
+    "Reaction": {
+      "Condition 1": " If self has 20000 HP or less and takes damage,Start a chain,Show message 14,Do nothing,Chain into,Change music to Boss Battle,Do nothing,Chain into,Use Dummy   ,End chain"
+    }
+  },
+  "174": {
+    "Name": "Sandy   ",
+    "Boss": "true",
+    "Level": "16",
+    "Hp": "2500",
+    "Xp": "3000",
+    "Gil": "3000",
+    "Attack": "30x3  80%",
+    "Defense": "1",
+    "M. Defense": "11",
+    "Speed": "7 to 7",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "11",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If monster   0 is defeated,Cast Charm on single,Wait,Cast Bersk on single,Wait,Cast Slow  on single,Wait,Target all monsters,Cast Cure2 on single",
+      "Condition 2": " If no condition,Next action, show message 101,Target all Type 2 monsters,Cast Wall  on single"
+    }
+  },
+  "175": {
+    "Name": "Cindy   ",
+    "Boss": "true",
+    "Level": "16",
+    "Hp": "4300",
+    "Xp": "3000",
+    "Gil": "3000",
+    "Attack": "60x5  80%",
+    "Defense": "2",
+    "M. Defense": "11",
+    "Speed": "7 to 7",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "11",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Fight,Wait,Target all KO monsters,Use Remedy  ",
+      "Condition 2": " If monster   0 is defeated,Fight,Wait,Target all KO monsters,Use Remedy  ",
+      "Condition 3": " If monster   0 is defeated,Fight,Wait,Target all KO monsters,Use Remedy  ",
+      "Condition 4": " If no condition,Next action, show message 46,Fight"
+    }
+  },
+  "176": {
+    "Name": "Mindy   ",
+    "Boss": "true",
+    "Level": "16",
+    "Hp": "2200",
+    "Xp": "3000",
+    "Gil": "3000",
+    "Attack": "30x3  80%",
+    "Defense": "1",
+    "M. Defense": "0",
+    "Speed": "7 to 7",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "11",
+    "Race": "Mage",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If monster   0 is defeated,Cast Fire1 on single,Wait,Cast Lit-1 on single,Wait,Cast Ice-1 on single,Wait,Cast Venom on single",
+      "Condition 2": " If no condition,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Fire2 on single,Wait,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Lit-2 on single,Wait,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Ice-2 on single,Wait,Next action, show message 102,Next action, show message 103,Target all Type 2 monsters,Cast Virus on single"
+    }
+  },
+  "177": {
+    "Name": "Golbez  ",
+    "Boss": "false",
+    "Level": "26",
+    "Hp": "65500",
+    "Xp": "1",
+    "Gil": "0",
+    "Attack": "19x1  75%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "69 to 69",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Holy Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fire magic,Show message 43,Show message 44,Do nothing",
+      "Condition 2": " If a character uses Ice magic,Show message 37,Show message 38,Show message 39,Show message 40,Show message 41,Do nothing",
+      "Condition 3": " If a character uses Holy magic,Show message 42,Target self,Use Vanish  "
+    }
+  },
+  "178": {
+    "Name": "Valvalis",
+    "Boss": "true",
+    "Level": "36",
+    "Hp": "6000",
+    "Xp": "9500",
+    "Gil": "5500",
+    "Attack": "70x5  99%",
+    "Defense": "0",
+    "M. Defense": "12",
+    "Speed": "18 to 18",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "63",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   2,Fight,Wait,Do nothing,Set condition flag to 0",
+      "Condition 2": " If condition flag is   1,Start a chain,Cast Weak  on single,Chain into,Use Ray     ,End chain,Wait,Fight",
+      "Condition 3": " If no condition,Start a chain,Change defense to 145: 45% 4 x4,Change magic defense to 223: 100% 255 x99,Do nothing,Chain into,Set condition flag to 1,Do nothing,Chain into,Set sprite to 22,Do nothing,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   1 and a character uses Jump ,Set sprite to 21,Set condition flag to 2,Change defense to 97: 0% 0 x0,Change magic defense to 177: 40% 12 x3,Fight",
+      "Condition 2": " If condition flag is   1 and a character uses Fight,Next action, show message 47,Next action, show message 48,Do nothing",
+      "Condition 3": " If condition flag is   1 and a character uses magic,Next action, show message 47,Next action, show message 48,Do nothing"
+    }
+  },
+  "179": {
+    "Name": "Cal     ",
+    "Boss": "false",
+    "Level": "31",
+    "Hp": "1000",
+    "Xp": "1000",
+    "Gil": "500",
+    "Attack": "54x4  99%",
+    "Defense": "0",
+    "M. Defense": "11",
+    "Speed": "16 to 19",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "31",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If all monsters are same type,Next action, show message 126,Change music to Boss Battle,Use Dummy   ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Fight"
+    }
+  },
+  "180": {
+    "Name": "Calbrena",
+    "Boss": "true",
+    "Level": "47",
+    "Hp": "4624",
+    "Xp": "15000",
+    "Gil": "5000",
+    "Attack": "96x7  99%",
+    "Defense": "2",
+    "M. Defense": "25",
+    "Speed": "11 to 11",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "41",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Use Glance  ,Wait,Fight,Wait,Fight,Wait,Cast Hold  on single,Wait,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If self has   100 HP or less and takes damage,Next action, show message 127,Change music to Calcobrena,Use Dummy   ",
+      "Condition 2": " If a character uses Fire magic,Use Fire    ",
+      "Condition 3": " If a character uses Ice magic,Use Wave    ",
+      "Condition 4": " If a character uses Bolt magic,Use Thunder "
+    }
+  },
+  "181": {
+    "Name": "Golbez  ",
+    "Boss": "true",
+    "Level": "31",
+    "Hp": "22001",
+    "Xp": "15000",
+    "Gil": "10000",
+    "Attack": "68x5  99%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "27 to 27",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "1",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   2,Cast Virus on single,Wait,Cast Lit-3 on single,Wait,Cast Fire2 on single",
+      "Condition 2": " If condition flag is   1 and only monster left,Show message 84,Show message 177,Target all characters,Use Heal    ,Show message 85,Show message 86,Wait,Change music to Decisive Battle,Use         ,Set condition flag to 2",
+      "Condition 3": " If condition flag is   1,Do nothing",
+      "Condition 4": " If no condition,Do nothing,Wait,Do nothing,Wait,Start a chain,Show message 75,Do nothing,Chain into,Show message 76,Do nothing,Chain into,Show message 77,Target all characters,Use Hold Gas,Chain into,Show message 78,Do nothing,Chain into,Show message 79,Do nothing,Chain into,Show message 80,Use Call    ,Chain into,Set condition flag to 1,Do nothing,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If self has 19000 HP or less and takes damage,Show message 87,Target self,Use Vanish  "
+    }
+  },
+  "182": {
+    "Name": "Shadow  ",
+    "Boss": "true",
+    "Level": "7",
+    "Hp": "1",
+    "Xp": "5000",
+    "Gil": "1000",
+    "Attack": "86x6  99%",
+    "Defense": "4",
+    "M. Defense": "0",
+    "Speed": "66 to 66",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "31",
+    "Race": "Dragon",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Start a chain,Target Yang 2,Use Demolish,Chain into,Target Kain 2,Use Demolish,Chain into,Target Rosa 2,Use Demolish,End chain,Wait,Start a chain,Show message 81,Do nothing,Chain into,Use Dummy   ,Chain into,Use y      ,Chain into,Use         ,End chain"
+    }
+  },
+  "183": {
+    "Name": "Dr.Lugae",
+    "Boss": "true",
+    "Level": "32",
+    "Hp": "4416",
+    "Xp": "5500",
+    "Gil": "2000",
+    "Attack": "18x1  75%",
+    "Defense": "0",
+    "M. Defense": "11",
+    "Speed": "11 to 11",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If only monster left,Show message 93,Show message 94,Show message 95,Use Dummy   ,Set condition flag to 0",
+      "Condition 2": " If condition flag is   2,Do nothing,Wait,Start a chain,Next action, show message 96,Do nothing,Chain into,Target all Type 2 monsters,Use Heal    ,Chain into,Next action, show message 89,Do nothing,End chain,Wait,Do nothing",
+      "Condition 3": " If condition flag is   1,Do nothing",
+      "Condition 4": " If no condition,Start a chain,Show message 88,Do nothing,Chain into,Show message 89,Do nothing,Chain into,Set condition flag to 1,Do nothing,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 27 uses Fight,Show message 90,Show message 91,Show message 89,Show message 92,Set condition flag to 2,Do nothing"
+    }
+  },
+  "184": {
+    "Name": "Balnab  ",
+    "Boss": "true",
+    "Level": "32",
+    "Hp": "3927",
+    "Xp": "5500",
+    "Gil": "2500",
+    "Attack": "86x6  99%",
+    "Defense": "0",
+    "M. Defense": "11",
+    "Speed": "31 to 31",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "31",
+    "Race": "Robot",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Show message 97,Use Explode ",
+      "Condition 2": " If condition flag is   2,Fight",
+      "Condition 3": " If condition flag is   1,Target all Type 1 monsters,Fight,Set condition flag to 2",
+      "Condition 4": " If no condition,Do nothing"
+    }
+  },
+  "185": {
+    "Name": "Dr.Lugae",
+    "Boss": "true",
+    "Level": "25",
+    "Hp": "6600",
+    "Xp": "15000",
+    "Gil": "4000",
+    "Attack": "86x6  99%",
+    "Defense": "1",
+    "M. Defense": "0",
+    "Speed": "27 to 27",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "7",
+    "Race": "Robot",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Use Beam    ,Wait,Use Laser   ,Wait,Use Emission,Wait,Target all characters,Use Heal    ",
+      "Condition 2": " If no condition,Show message 98,Do nothing,Wait,Start a chain,Show message 99,Do nothing,Chain into,Set sprite to 40,Do nothing,Chain into,Change music to Boss Battle,Do nothing,Chain into,Set condition flag to 1,Use Poison  ,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If takes damage,Use Gas     "
+    }
+  },
+  "186": {
+    "Name": "K.Eblan ",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "60000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "116x9  85%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "53 to 53",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Show message 49,Show message 50,Do nothing,Wait,Cast Fire2 on single,Wait,Show message 51,Show message 52,Do nothing,Wait,Cast Fire2 on single,Wait,Cast Fire2 on single,Wait,Show message 53,Do nothing,Wait,Darken screen: 0,Change music to Cry in Sorrow,Target all Type 2 monsters,Use Dummy   ,Set sprite to 31,Set condition flag to 1,Wait,Show message 55,Do nothing,Wait,Show message 56,Do nothing,Wait,Show message 57,Do nothing,Wait,Show message 58,Do nothing,Wait,Show message 109,Do nothing,Wait,Show message 110,Do nothing,Wait,Show message 111,Do nothing,Wait,Show message 112,Do nothing,Wait,Show message 113,Do nothing,Wait,Target self,Use Vanish  "
+    }
+  },
+  "187": {
+    "Name": "Q.Eblan ",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "60000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "30x3  80%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "15 to 15",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If only monster left,Show message 114,Show message 115,Show message 116,Target self,Use Vanish  ",
+      "Condition 2": " If condition flag is   1,Do nothing",
+      "Condition 3": " If no condition,Cast Fire1 on single"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 26 uses magic,Set sprite to 96,Show message 54,Do nothing"
+    }
+  },
+  "188": {
+    "Name": "Rubicant",
+    "Boss": "true",
+    "Level": "50",
+    "Hp": "25200",
+    "Xp": "25000",
+    "Gil": "7000",
+    "Attack": "88x7  80%",
+    "Defense": "1",
+    "M. Defense": "37",
+    "Speed": "38 to 38",
+    "Attack Element": "None",
+    "Resistances": "Fire Absorb Berserk",
+    "Weaknesses": "",
+    "SpellPower": "16",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If formation index is 254,Do nothing",
+      "Condition 2": " If condition flag is   1,Start a chain,Fight,Chain into,Fight,End chain,Wait,Do nothing,Wait,Set condition flag to 0,Do nothing",
+      "Condition 3": " If no condition,Start a chain,Set sprite to 17,Do nothing,Chain into,Set resistances to None,Set weakness to Ice, Immune,Do nothing,End chain,Wait,Do nothing,Wait,Use Glare   ,Wait,Start a chain,Set sprite to 16,Do nothing,Chain into,Set resistances to Ice, Absorb,Set weakness to Ice, Absorb,Do nothing,End chain,Wait,Fight,Wait,Start a chain,Set sprite to 17,Do nothing,Chain into,Set resistances to None,Set weakness to Ice, Immune,Do nothing,End chain,Wait,Do nothing,Wait,Use Glare   ,Wait,Start a chain,Set sprite to 16,Do nothing,Chain into,Set resistances to Ice, Absorb,Set weakness to Ice, Absorb,Do nothing,End chain,Wait,Do nothing,Set condition flag to 1"
+    },
+    "Reaction": {
+      "Condition 1": " If formation index is 254 and a character uses Fire magic,Show message 106,Show message 108,Set sprite to 17,Use Glare   ",
+      "Condition 2": " If self has  1000 HP or less and a character uses Fight,Show message 144,Show message 107,Show message 6,Target self,Use Vanish  ",
+      "Condition 3": " If a character uses Fight,Target all characters,Cast Fire2 on single",
+      "Condition 4": " If character  11 is defeated and a character uses Fire magic,Target all characters,Cast Life1 on single",
+      "Condition 5": " If character  17 is defeated and a character uses Fire magic,Target all characters,Cast Life1 on single",
+      "Condition 6": " If character  15 is defeated and a character uses Fire magic,Target all characters,Cast Life1 on single",
+      "Condition 7": " If character  16 is defeated and a character uses Fire magic,Target all characters,Cast Life1 on single",
+      "Condition 8": " If character  18 is defeated and a character uses Fire magic,Target all characters,Cast Life1 on single"
+    }
+  },
+  "189": {
+    "Name": "Odin    ",
+    "Boss": "true",
+    "Level": "53",
+    "Hp": "20500",
+    "Xp": "18000",
+    "Gil": "0",
+    "Attack": "116x9  85%",
+    "Defense": "3",
+    "M. Defense": "32",
+    "Speed": "43 to 46",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Bolt Immune",
+    "SpellPower": "95",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Fight,Wait,Fight,Wait,Set sprite to 43,Do nothing,Wait,Do nothing,Wait,Use Odin    ,Wait,Fight,Wait,Fight,Wait,Set sprite to 43,Do nothing,Wait,Do nothing,Wait,Use Odin    ,Wait,Fight,Wait,Start a chain,Set sprite to 43,Do nothing,Chain into,Set condition flag to 1,Do nothing,End chain,Wait,Set condition flag to 0,Use Odin    "
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   1 and a character uses Bolt magic,Next action, show message 105,Target self,Use Vanish  "
+    }
+  },
+  "190": {
+    "Name": "Leviatan",
+    "Boss": "true",
+    "Level": "79",
+    "Hp": "35000",
+    "Xp": "28000",
+    "Gil": "0",
+    "Attack": "174x13  99%",
+    "Defense": "5",
+    "M. Defense": "47",
+    "Speed": "53 to 53",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Bolt",
+    "SpellPower": "34",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Target all characters,Use Maser   ",
+      "Condition 2": " If no condition,Start a chain,Set sprite to 45,Do nothing,Chain into,Use Big Wave,End chain,Wait,Set sprite to 46,Do nothing,Wait,Cast Ice-2 on single,Wait,Cast Ice-2 on single,Wait,Do nothing,Wait,Start a chain,Set sprite to 45,Do nothing,Chain into,Use Big Wave,End chain,Wait,Set sprite to 46,Do nothing,Wait,Cast Ice-2 on single,Wait,Do nothing"
+    }
+  },
+  "191": {
+    "Name": "Bahamut ",
+    "Boss": "true",
+    "Level": "47",
+    "Hp": "37000",
+    "Xp": "35000",
+    "Gil": "0",
+    "Attack": "174x13  99%",
+    "Defense": "1",
+    "M. Defense": "8",
+    "Speed": "27 to 27",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "17",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Next action, show message 121,Do nothing,Wait,Next action, show message 122,Do nothing,Wait,Next action, show message 123,Do nothing,Wait,Next action, show message 124,Do nothing,Wait,Next action, show message 125,Do nothing,Wait,Start a chain,Set sprite to 48,Do nothing,Chain into,Use MegaNuke,End chain,Wait,Set sprite to 47,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic and condition flag is   1,Target self,Cast Wall  on single,Set condition flag to 1"
+    }
+  },
+  "192": {
+    "Name": "EvilWall",
+    "Boss": "true",
+    "Level": "37",
+    "Hp": "19000",
+    "Xp": "23000",
+    "Gil": "8000",
+    "Attack": "84x6  90%",
+    "Defense": "2",
+    "M. Defense": "29",
+    "Speed": "66 to 66",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "79",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is  16,Use Crush   ,Wait,Do nothing",
+      "Condition 2": " If no condition,Start a chain,Use Dummy   ,Chain into,Fight,Set condition flag to current flag +1,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses magic,Use Petrify "
+    }
+  },
+  "193": {
+    "Name": "Asura   ",
+    "Boss": "true",
+    "Level": "63",
+    "Hp": "23000",
+    "Xp": "20000",
+    "Gil": "0",
+    "Attack": "134x10  99%",
+    "Defense": "0",
+    "M. Defense": "37",
+    "Speed": "66 to 66",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "69",
+    "Race": "Mage",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   2,Set sprite to 55,Target self,Cast Life1 on single,Set condition flag to 0",
+      "Condition 2": " If condition flag is   1,Set sprite to 53,Target self,Cast Cure3 on single,Set condition flag to 2",
+      "Condition 3": " If no condition,Set sprite to 54,Target self,Cast Cure4 on single,Set condition flag to 1"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   2 and takes damage,Set sprite to 53,Set sprite to 54,Set sprite to 55,Set sprite to 53,Set condition flag to 1,Fight",
+      "Condition 2": " If condition flag is   1 and takes damage,Set sprite to 54,Set sprite to 55,Set sprite to 53,Set sprite to 54,Set condition flag to 0,Fight",
+      "Condition 3": " If condition flag is   0 and takes damage,Set sprite to 55,Set sprite to 53,Set sprite to 54,Set sprite to 55,Set condition flag to 2,Fight"
+    }
+  },
+  "194": {
+    "Name": "Elements",
+    "Boss": "true",
+    "Level": "79",
+    "Hp": "57000",
+    "Xp": "40000",
+    "Gil": "10000",
+    "Attack": "128x10  80%",
+    "Defense": "3",
+    "M. Defense": "4",
+    "Speed": "89 to 89",
+    "Attack Element": "None",
+    "Resistances": "",
+    "Weaknesses": "",
+    "SpellPower": "15",
+    "Race": "",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Target all characters,Cast Fire2 on single,Wait,Target all characters,Cast Fire3 on single,Wait,Target all characters,Use Glare   ",
+      "Condition 2": " If no condition,Start a chain,Set resistances to Ice, Bolt, Dark, Holy, Air, Absorb,Do nothing,Chain into,Set weakness to Fire, Immune,Do nothing,Chain into,Change race to Zombie,Do nothing,End chain,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Use Curse   "
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   1 and self has 11000 HP or less and takes damage,Use Dummy   ",
+      "Condition 2": " If condition flag is   0 and self has 40000 HP or less and takes damage,Set condition flag to 1,Set sprite to 17,Set resistances to Fire, Bolt, Dark, Holy, Air, Absorb,Set weakness to Ice, Immune,Change race to Mage,Do nothing"
+    }
+  },
+  "195": {
+    "Name": "Elements",
+    "Boss": "true",
+    "Level": "79",
+    "Hp": "47000",
+    "Xp": "62500",
+    "Gil": "10000",
+    "Attack": "132x10  90%",
+    "Defense": "2",
+    "M. Defense": "3",
+    "Speed": "89 to 89",
+    "Attack Element": "None",
+    "Resistances": "",
+    "Weaknesses": "",
+    "SpellPower": "31",
+    "Race": "",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   3,Fight,Wait,Use Ray     ,Wait,Fight,Wait,Use Ray     ,Wait,Fight,Wait,Use Storm   ",
+      "Condition 2": " If no condition,Start a chain,Set condition flag to 2,Do nothing,Chain into,Set resistances to Fire, Ice, Dark, Holy, Air, Absorb,Do nothing,Chain into,Set weakness to Bolt, Immune,Do nothing,Chain into,Change race to None,Do nothing,End chain,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Fight,Wait,Use Big Wave"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   2 and self has 27000 HP or less and takes damage,Set condition flag to 3,Set sprite to 116,Set resistances to None,Set weakness to Holy,Change race to None,Do nothing"
+    }
+  },
+  "196": {
+    "Name": "Dark Elf",
+    "Boss": "false",
+    "Level": "19",
+    "Hp": "3000",
+    "Xp": "6000",
+    "Gil": "5000",
+    "Attack": "54x4  99%",
+    "Defense": "3",
+    "M. Defense": "254",
+    "Speed": "11 to 11",
+    "Attack Element": "None",
+    "Resistances": "Holy Absorb Blind Mute Pig Mini Frog Petrify KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "Holy Immune",
+    "SpellPower": "15",
+    "Race": "Dragon",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Use D.Breath"
+    }
+  },
+  "197": {
+    "Name": "WaterHag",
+    "Boss": "true",
+    "Level": "5",
+    "Hp": "45672",
+    "Xp": "800",
+    "Gil": "100",
+    "Attack": "18x1  75%",
+    "Defense": "3",
+    "M. Defense": "0",
+    "Speed": "5 to 5",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   2 and takes damage,Next action, show message 70,Target self,Use Vanish  ",
+      "Condition 2": " If condition flag is   1 and takes damage,Show message 68,Use         ,Show message 69,Set condition flag to 2,Change defense to 97: 0% 0 x0",
+      "Condition 3": " If takes damage,Use         ,Show message 65,Show message 66,Show message 67,Set condition flag to 1"
+    }
+  },
+  "198": {
+    "Name": "CPU     ",
+    "Boss": "true",
+    "Level": "48",
+    "Hp": "20000",
+    "Xp": "50000",
+    "Gil": "10333",
+    "Attack": "174x13  99%",
+    "Defense": "4",
+    "M. Defense": "38",
+    "Speed": "38 to 38",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "127",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If only monster left,Use Globe199,Wait,Use Globe199,Wait,Target all KO monsters,Use Recover ",
+      "Condition 2": " If self has Reflect,Do nothing",
+      "Condition 3": " If no condition,Target self,Cast Wall  on single"
+    }
+  },
+  "199": {
+    "Name": "Defender",
+    "Boss": "true",
+    "Level": "48",
+    "Hp": "2000",
+    "Xp": "50000",
+    "Gil": "0",
+    "Attack": "116x9  85%",
+    "Defense": "5",
+    "M. Defense": "11",
+    "Speed": "111 to 111",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "47",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Target all Type 1 monsters,Use Remedy  "
+    }
+  },
+  "200": {
+    "Name": "Zemus   ",
+    "Boss": "true",
+    "Level": "63",
+    "Hp": "65500",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "116x9  85%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses 224 and condition flag is   1,Show message 131,Show message 132,Target self,Use Vanish  ",
+      "Condition 2": " If a character uses Holy magic,Show message 128,Show message 129,Show message 130,Set condition flag to 1,Do nothing"
+    }
+  },
+  "201": {
+    "Name": "Zeromus ",
+    "Boss": "true",
+    "Level": "96",
+    "Hp": "60000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "116x9  85%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "69 to 69",
+    "Attack Element": "None",
+    "Resistances": "Fire Ice Bolt Holy Absorb",
+    "Weaknesses": "None",
+    "SpellPower": "41",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   2,Start a chain,Use Disrupt ,Chain into,Use         ,End chain",
+      "Condition 2": " If condition flag is   1,Start a chain,Use         ,Chain into,Show message 161,Show message 162,Show message 163,Use         ,Chain into,Target Edge,Use         ,Chain into,Target Kain 3,Use         ,Chain into,Use         ,End chain,Wait,Start a chain,Use         ,Chain into,Show message 164,Use         ,Chain into,Target all characters,Use         ,Chain into,Show message 165,Show message 166,Show message 167,Show message 168,Use         ,Chain into,Set condition flag to 2,Use         ,End chain",
+      "Condition 3": " If no condition,Start a chain,Use         ,Chain into,Show message 158,Show message 159,Show message 160,Use         ,Chain into,Target all characters,Use         ,Chain into,Use         ,End chain,Wait,Start a chain,Use         ,Chain into,Show message 155,Show message 156,Show message 157,Use         ,Chain into,Target Rosa 2,Use         ,Chain into,Target Adult Rydia,Use         ,Chain into,Use         ,Set condition flag to 1,End chain"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 11 uses Dark magic and condition flag is   2,Show message 173,Darken screen: 0,Change music to Nothing,Show message 170,Change music to Zeromus,Use Dummy   ,Darken screen: 128",
+      "Condition 2": " If takes damage,Use Vanish  "
+    }
+  },
+  "202": {
+    "Name": "Zeromus ",
+    "Boss": "true",
+    "Level": "96",
+    "Hp": "61000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "174x13  99%",
+    "Defense": "1",
+    "M. Defense": "17",
+    "Speed": "69 to 69",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "32",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   5,Start a chain,Set spell power to 3,Do nothing,Chain into,Target all characters,Cast Meteo on single,End chain,Wait,Do nothing",
+      "Condition 2": " If condition flag is   4,Do nothing,Wait,Use         ,Wait,Set spell power to 31,Use Big Bang,Wait,Use Blk.Hole,Show message 118,Wait,Set spell power to 14,Cast Nuke  on single,Wait,Do nothing,Wait,Do nothing,Wait,Use         ,Wait,Set spell power to 32,Use Big Bang",
+      "Condition 3": " If condition flag is   3,Do nothing,Wait,Use         ,Wait,Set spell power to 31,Use Big Bang,Wait,Use Blk.Hole,Show message 118,Wait,Do nothing,Wait,Use         ,Wait,Set spell power to 32,Use Big Bang,Wait,Set spell power to 36,Target all characters,Cast Virus on single,Wait,Use Blk.Hole,Show message 118,Wait,Do nothing,Wait,Use         ,Wait,Set spell power to 32,Use Big Bang,Wait,Use Blk.Hole,Show message 118",
+      "Condition 4": " If no condition,Use Dummy   ,Wait,Use         ,Wait,Use Big Bang,Set condition flag to 3"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   4 and takes damage and self has 12000 HP or less,Set condition flag to 5,Do nothing",
+      "Condition 2": " If condition flag is   3 and takes damage and self has 16000 HP or less,Set condition flag to 4,Use Vanish  ",
+      "Condition 3": " If a character uses Call  and condition flag is   3,Set spell power to 14,Cast Nuke  on single",
+      "Condition 4": " If a character uses Call ,Set spell power to 36,Target all characters,Cast Virus on single",
+      "Condition 5": " If a character uses Holy magic,Use Weak    ",
+      "Condition 6": " If a character uses magic,Set spell power to 14,Cast Nuke  on single"
+    }
+  },
+  "203": {
+    "Name": "Dragoon ",
+    "Boss": "true",
+    "Level": "47",
+    "Hp": "65000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "32x3  85%",
+    "Defense": "0",
+    "M. Defense": "1",
+    "Speed": "53 to 53",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If unit 1 has Critical,Start a chain,Next action, show message 63,Jump ,Chain into,Use Dummy   ,End chain",
+      "Condition 2": " If condition flag is   1,Jump ",
+      "Condition 3": " If no condition,Show message 59,Show message 60,Jump ,Wait,Do nothing,Wait,Show message 61,Show message 62,Jump ,Set condition flag to 1"
+    }
+  },
+  "204": {
+    "Name": "Bard    ",
+    "Boss": "true",
+    "Level": "5",
+    "Hp": "60000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "13x2  85%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "69 to 69",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   3 and a character uses Fight,Show message 29,Show message 30,Show message 22,Use Dummy   ",
+      "Condition 2": " If condition flag is   2 and a character uses Fight,Show message 27,Show message 28,Set condition flag to 3,Do nothing",
+      "Condition 3": " If condition flag is   1 and a character uses Fight,Show message 25,Show message 26,Set condition flag to 2,Do nothing",
+      "Condition 4": " If a character uses Fight,Show message 23,Show message 24,Set condition flag to 1,Do nothing"
+    }
+  },
+  "205": {
+    "Name": "Karate  ",
+    "Boss": "true",
+    "Level": "31",
+    "Hp": "4000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "86x6  99%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "4 to 7",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If no condition,Next action, show message 15,Target Dark Kn. Cecil,Fight,Wait,Next action, show message 16,Kick ,Wait,Next action, show message 17,Target Dark Kn. Cecil,Fight,Wait,Next action, show message 18,Kick ,Set condition flag to 1"
+    },
+    "Reaction": {
+      "Condition 1": " If condition flag is   1 and unit 11 uses Fight,Next action, show message 19,Use Dummy   "
+    }
+  },
+  "206": {
+    "Name": "D.Knight",
+    "Boss": "true",
+    "Level": "17",
+    "Hp": "1000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "46x3  99%",
+    "Defense": "0",
+    "M. Defense": "11",
+    "Speed": "5 to 5",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If condition flag is   1,Dummy,Show message 31,Wait,Dummy,Show message 32,Set condition flag to 0",
+      "Condition 2": " If no condition,Dummy,Wait,Dummy,Wait,Dummy,Wait,Show message 33,Show message 34,Show message 35,Show message 149,Target self,Use Vanish  "
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Set condition flag to 1,Do nothing"
+    }
+  },
+  "207": {
+    "Name": "Girl    ",
+    "Boss": "true",
+    "Level": "1",
+    "Hp": "60000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "18x1  75%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "5 to 5",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Next action, show message 20,Use Call    "
+    }
+  },
+  "208": {
+    "Name": "Titan   ",
+    "Boss": "true",
+    "Level": "1",
+    "Hp": "60000",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "18x1  75%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "66 to 66",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Start a chain,Set sprite to 67,Use Quake   ,Chain into,Use Dummy   ,End chain"
+    }
+  },
+  "209": {
+    "Name": "FloatEye",
+    "Boss": "true",
+    "Level": "1",
+    "Hp": "1",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "18x1  75%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Fire Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "210": {
+    "Name": "Raven   ",
+    "Boss": "true",
+    "Level": "1",
+    "Hp": "1",
+    "Xp": "0",
+    "Gil": "0",
+    "Attack": "19x1  75%",
+    "Defense": "0",
+    "M. Defense": "0",
+    "Speed": "1 to 2",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "Bolt Immune",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If self has Egg,Do nothing",
+      "Condition 2": " If self has Charm,Target random monster,Fight",
+      "Condition 3": " If no condition,Fight"
+    }
+  },
+  "211": {
+    "Name": "Brena   ",
+    "Boss": "true",
+    "Level": "15",
+    "Hp": "300",
+    "Xp": "1000",
+    "Gil": "500",
+    "Attack": "54x4  99%",
+    "Defense": "1",
+    "M. Defense": "11",
+    "Speed": "16 to 19",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "31",
+    "Race": "None",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If all monsters are same type,Next action, show message 126,Change music to Boss Battle,Use Dummy   ",
+      "Condition 2": " If no condition,Fight"
+    },
+    "Reaction": {
+      "Condition 1": " If a character uses Fight,Fight"
+    }
+  },
+  "212": {
+    "Name": "Ghast   ",
+    "Boss": "false",
+    "Level": "15",
+    "Hp": "170",
+    "Xp": "150",
+    "Gil": "200",
+    "Attack": "42x3  95%",
+    "Defense": "1",
+    "M. Defense": "5",
+    "Speed": "2 to 5",
+    "Attack Element": "None",
+    "Resistances": "Dark Immune Poison Blind Mute Pig Mini Frog KO Calcify 1 Calcify 2 Berserk Charm Sleep Stun Float Curse",
+    "Weaknesses": "Fire Holy",
+    "SpellPower": "None",
+    "Race": "Zombie",
+    "Has reaction": "Yes",
+    "AI": {
+      "Condition 1": " If all monsters are same type,Fight",
+      "Condition 2": " If no condition,Do nothing"
+    },
+    "Reaction": {
+      "Condition 1": " If unit 26 uses magic,Cast Drain on single"
+    }
+  },
+  "213": {
+    "Name": "Balnab-Z",
+    "Boss": "true",
+    "Level": "47",
+    "Hp": "4000",
+    "Xp": "20",
+    "Gil": "2500",
+    "Attack": "114x9  80%",
+    "Defense": "1",
+    "M. Defense": "0",
+    "Speed": "31 to 31",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "None",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Fight,Wait,Fight,Wait,Show message 100,Use Explode "
+    }
+  },
+  "214": {
+    "Name": "Attacker",
+    "Boss": "true",
+    "Level": "79",
+    "Hp": "2000",
+    "Xp": "50000",
+    "Gil": "0",
+    "Attack": "116x9  85%",
+    "Defense": "5",
+    "M. Defense": "11",
+    "Speed": "31 to 31",
+    "Attack Element": "None",
+    "Resistances": "None",
+    "Weaknesses": "None",
+    "SpellPower": "47",
+    "Race": "None",
+    "Has reaction": "No",
+    "AI": {
+      "Condition 1": " If no condition,Target all characters,Use Maser   "
+    }
+  }
+}

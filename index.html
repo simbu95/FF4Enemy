@@ -40,7 +40,7 @@
    <script>
 var RData = "";
 document.getElementById('l').addEventListener('click', load);
-$.getJSON("Rings.json", function (data) {
+$.getJSON("Enemy.json", function (data) {
     RData = data.Data;
     ref = $('#Ring')[0];
     for (x of RData) {

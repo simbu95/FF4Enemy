@@ -31,6 +31,11 @@
 <tr><td>Level</td> 
 <td>Row3 cell2</td></tr> 
 </table></div>
+                     <div class="row">
+                        <table id="myTable2" border="1"> 
+                        <tr><td>AI Script</td></tr>
+                        </table>
+                     </div>
                   </div>
                </div>
             </div>
@@ -63,14 +68,16 @@ function load() {
     x[parseInt(1,10)].innerHTML=ri.Hp;
    x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
     x[parseInt(1,10)].innerHTML=ri.Level;
-}
-function changeContent()
-{
-rn = window.prompt("Input the Row number(0,1,2)", "0");
-cn = window.prompt("Input the Column number(0,1)","0");
-content = window.prompt("Input the Cell content");  
-var x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
-x[parseInt(1,10)].innerHTML=content;
+   var y=Object.keys(ri.AI)
+   var i;
+   for (i = 0; i < y.length; i++){
+      var s=ri.AI[y[i]]
+      var z=s.split(",")
+      for (var n=0; n< z.length; n++){
+         var row = document.getElementById('myTable2').insertRow();
+         row[0].innerHTML=z[n];
+      }
+   }
 }
    </script>
 </html>

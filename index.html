@@ -58,7 +58,7 @@ $.getJSON("Enemy.json", function (data) {
 function load() {
     ri = RData[$('#Ring')[0].selectedIndex];
     var x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
-    x[parseInt(1,10)].innerHTML=content;
+    x[parseInt(1,10)].innerHTML=ri.level;
 }
 function changeContent()
 {

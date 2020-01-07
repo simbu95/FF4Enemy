@@ -22,6 +22,15 @@
                      <div class="row">
                         <div class="col"><button id="l">Load!</button></div>
                      </div>
+                     <div class="row">
+                     <table id="myTable" border="1"> 
+<tr><td>Row1 cell1</td> 
+<td>Row1 cell2</td></tr> 
+<tr><td>Row2 cell1</td> 
+<td>Row2 cell2</td></tr> 
+<tr><td>Row3 cell1</td> 
+<td>Row3 cell2</td></tr> 
+</table></div>
                   </div>
                </div>
             </div>
@@ -48,6 +57,16 @@ $.getJSON("Enemy.json", function (data) {
 })
 function load() {
     ri = RData[$('#Ring')[0].selectedIndex];
+    var x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
+    x[parseInt(1,10)].innerHTML=content;
+}
+function changeContent()
+{
+rn = window.prompt("Input the Row number(0,1,2)", "0");
+cn = window.prompt("Input the Column number(0,1)","0");
+content = window.prompt("Input the Cell content");  
+var x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
+x[parseInt(1,10)].innerHTML=content;
 }
    </script>
 </html>

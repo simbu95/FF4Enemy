@@ -75,7 +75,8 @@ function load() {
       var z=s.split(",")
       for (var n=0; n< z.length; n++){
          var row = document.getElementById('myTable2').insertRow();
-         row.cells[0].innerHTML=z[n];
+         var cell=row.insertCell();
+         cell.innerHTML=z[n]
       }
    }
 }

@@ -24,11 +24,11 @@
                      </div>
                      <div class="row">
                      <table id="myTable" border="1"> 
-<tr><td>Row1 cell1</td> 
+<tr><td>Name</td> 
 <td>Row1 cell2</td></tr> 
-<tr><td>Row2 cell1</td> 
+<tr><td>Hp</td> 
 <td>Row2 cell2</td></tr> 
-<tr><td>Row3 cell1</td> 
+<tr><td>Level</td> 
 <td>Row3 cell2</td></tr> 
 </table></div>
                   </div>
@@ -57,8 +57,12 @@ $.getJSON("Enemy.json", function (data) {
 })
 function load() {
     ri = RData[$('#Ring')[0].selectedIndex];
-    var x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
-    x[parseInt(1,10)].innerHTML=ri.level;
+    var x=document.getElementById('myTable').rows[parseInt(0,10)].cells;
+    x[parseInt(1,10)].innerHTML=ri.Name;
+   x=document.getElementById('myTable').rows[parseInt(1,10)].cells;
+    x[parseInt(1,10)].innerHTML=ri.Hp;
+   x=document.getElementById('myTable').rows[parseInt(2,10)].cells;
+    x[parseInt(1,10)].innerHTML=ri.Level;
 }
 function changeContent()
 {
